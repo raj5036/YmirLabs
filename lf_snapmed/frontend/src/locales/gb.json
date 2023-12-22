@@ -1,0 +1,688 @@
+{
+    "common": {
+        "go_back": "Go Back",
+        "proceed": "Proceed"
+    },
+    "landing": {
+        "chat": {
+            "title": "Photo consults are easy!",
+            "list_1": "Click ‘Start’ below and get ready to snap some pictures for us",
+            "list_2": "Tell us a few medical bits we need to know",
+            "list_3": "We’ll send your doctor’s report and prescription to you, usually within a few hours",
+            "microcopy": "{0} for first consultation, {1} for any follow-up if needed",
+            "button": "Start",
+            "doctor_title": "Some of our trusted doctors",
+            "doctor_microcopy": "Our doctors are all board-certified in dermatology, working as senior NHS consultants in busy clinics and hospitals across the country."
+        },
+        "video": {
+            "title": "Order video consultation",
+            "intro": "See a dermatologist by video when and where you want to get medical advice, prescriptions and referrals.",
+            "list_1": "Book an appointment in the calendar",
+            "list_2": "Receive SMS with link before appointment",
+            "list_3": "See your dermatologist over a video call",
+            "microcopy": "{0} per consultation",
+            "button": "Show calendar",
+            "doctor_title": "Some of our trusted doctors",
+            "doctor_microcopy": "Our doctors are all board-certified in dermatology, working as senior NHS consultants in busy clinics and hospitals across the country."
+        }
+    },
+    "btn": {
+        "otp": "Get one-time code",
+        "next": "Next",
+        "phone_text": "Verify via SMS",
+        "check": "Review my case",
+        "charge": "Complete booking",
+        "checkNow": "Ask dermatologist",
+        "readMore": "Read more",
+        "check_response": "Verify one-time code",
+        "confirm": "Confirm",
+        "change": "Change"
+    },
+    "appointment": {
+        "header": {
+            "week": "Week {0} - {1}",
+            "next": "Next week",
+            "prev": "Previous week"
+        }
+    },
+    "lang": {
+        "switch": {
+            "label": "Norsk",
+            "url": "https://snapmed.no"
+        }
+    },
+    "title": {
+        "404": "Page not found",
+        "home": "Snapmed",
+        "check": "Ask dermatologist",
+        "response": "Review my case",
+        "video": "Book a dermatologist appointment",
+        "reset_password": "Reset Password"
+    },
+    "page": {
+        "verification": {
+            "verified": "Your email is verified",
+            "not_verified": "Your verification link has expired",
+            "login": "Login",
+            "go_back": "Go Back"
+        },
+        "login": {
+            "login_bankid_btn": "Log in with BankID",
+            "login_with_phone_instead": "Log in with phone number instead?",
+            "no_bankid_user_found": "No user found linked to this BankID.",
+            "no_bankid_try_again": "Try again"
+        },
+        "partnerlogin": {
+            "confirmbutton": "Accept terms & continue",
+            "title": "Submit picture to skin doctor",
+            "continue": "Continue",
+            "submit": "Submit",
+            "newcase": "Submit another case",
+            "casecode": "Your case code is: ",
+            "thankyou": "Write a referral to Snapmed with this code. We will answer the case within 24 hours and get back to you."
+        },
+        "check": {
+            "reset": "Start new assessment",
+            "continue": "Proceed to login and payment",
+            "title": "Hi and welcome to Snapmed",
+            "finish": "Thank you for your order.",
+            "subtitle": "We will now ask you a few questions about your skin.",
+            "otp_error": "Your one time code is incorrect.",
+            "otp_retry": "Please input your one-time code again.",
+            "phone_error": "Phone number is incorrect. Please supply a mobile phone number that can receive SMS.",
+            "email_error": "Your email is incorrect. Please supply an email that can receive verification email.",
+            "email_already_exists": "Email Already Exists",
+            "paymenttitle": "Complete order.",
+            "finishsubtitle": "One of our dermatologists will look at your case as soon as possible. You will get an SMS when your assessment is ready.",
+            "partnerContinue": "Continue",
+            "minor": "By inputing this information you confirm you are the legal guardian of the minor and have the right to submit and receive health information on their behalf.",
+            "picture_upload_heading": "Upload pictures for assessment",
+            "picture_upload_sub_text": "Clicking here will take you to login",
+            "login_details_heading": "Login Information",
+            "login_details_sub_heading": "Create new account or log into your existing account here",
+            "login_details_sub_text": "Clicking here will take you to patient information",
+            "password_error": "Incorrect Password",
+            "patient_details_heading": "Please answer a few questions",
+            "forgot_password": "Forgot Password",
+            "subtotal": "Subtotal",
+            "apply": "Apply",
+            "empty_error": "This field cannot be empty",
+            "password_not_same": "Passwords do not match",
+            "enter_promocode": "Enter Promocode",
+            "patient_details": "Patient Details",
+            "patient_details_sub_text": "",
+            "medical_issue": "Medical Issue",
+            "medical_issue_sub_text": "",
+            "medical_history": "Medical History",
+            "medical_history_sub_text": "You are almost there, keep going :)",
+            "user_authentication": "User Authentication",
+            "user_authentication_sub_text": "",
+            "payment_details": "Payment",
+            "payment_details_sub_text": "We will notify you as soon as your case has been reviewed",
+            "payment": {
+                "promo": "Add promo code or referral code",
+                "summary": "Show case summary",
+                "details": "Case Details",
+                "description": "You will receive an answer in the next 24 hours",
+                "total": "Total Fee",
+                "promo_applied": "Promo code applied",
+                "pay": "To Pay",
+                "secure": "All payments are securely processed",
+                "card": "Pay with card",
+                "card_details": "Enter your card details",
+                "card_number": "Card Number",
+                "expiry": "Expiry",
+                "cvc": "CVC"
+            },
+            "step1": "Step 1",
+            "step2": "Step 2",
+            "step3": "Step 3",
+            "step4": "Step 4",
+            "step5": "Step 5"
+        },
+        "results": {
+            "upload": "Please submit new pictures.",
+            "update": "Update case",
+            "duration": "Experienced duration",
+            "not_ready": "Your assessment is not finished. You will receive an SMS when it is completed. ",
+            "description": "Your description",
+            "imagecloseup": "Close-up picture",
+            "imageoverview": "Overview picture",
+            "imagecloseup_alt": "Close-up picture",
+            "imageoverview_alt": "Overview picture"
+        },
+        "response": {
+            "email_not_verified": "Please verify your email by clicking on the link sent to your registered email.",
+            "resend_email": "Resend Email",
+            "cta": {
+                "back": "Back to overview",
+                "second_opinion": "Request a follow-up"
+            },
+            "login": {
+                "title": "Review your cases"
+            },
+            "logout": "Log out",
+            "password": {
+                "update": {
+                    "title": "Input your new password",
+                    "btn": "Confirm"
+                },
+                "anchor": "Change password",
+                "title": "Change your existing password",
+                "current": "Current Password",
+                "new": "New Password",
+                "confirm": "Confirm New Password",
+                "back": "Go Back",
+                "continue": "Continue",
+                "empty_err": "Please fill in the above details.",
+                "length_err": "A new password must be at least six characters long.",
+                "confirm_err": "New and confirm passwords do not match.",
+                "match_err": "Your current password does not match with the password you provided. Please try again.",
+                "same_err": "A new password cannot be the same as your current password. Please choose a different password.",
+                "success": "Password changed successfully!",
+                "error": "Something went wrong. Please contact the support team.",
+                "expire": "Seems like an invalid or used link.",
+                "updated": "Your password has been reset.<br>Click here to <a href={0}>Log in</a>"
+            },
+            "diagnosed": ["No", "Yes"],
+            "modal": {
+                "title": "Why do you need a follow-up assessment?",
+                "grounds": "Reason",
+                "cta": {
+                    "cancel": "Cancel",
+                    "download": "Download"
+                }
+            },
+            "result": {
+                "selected": "The dermatologists assessment ",
+                "multiple": "My assessments."
+            }
+        },
+        "video": {
+            "login": {
+                "short_title": "Booking",
+                "title": "Login to continue",
+                "sub_header": "Input your phone number and your new or existing password"
+            },
+            "title": "Book video appointment",
+            "short_title": "Booking",
+            "book": {
+                "no_slots": "none available",
+                "loading": "Loading available appointments",
+                "actions": {
+                    "next": "Next step"
+                }
+            },
+            "confirm-partner": {
+                "title": "Confirm appointment",
+                "short_title": "Confirm appointment",
+                "complete": "Thank you for your booking!",
+                "change_date": "Change time"
+            },
+            "confirm": {
+                "title": "Confirm appointment",
+                "short_title": "Confirm appointment",
+                "complete": "Thank you for your booking!",
+                "change_date": "Change time",
+                "header": "Dermatologist consultation (15 min)",
+                "sub_header": "Your appointment is:",
+                "actions": {
+                    "next": "Next step",
+                    "back": "Back"
+                },
+                "appointment": {
+                    "error": "You have no longer selected an appointment. Can you go back and choose a new time?"
+                },
+                "name": {
+                    "label": "Name",
+                    "placeholder": "Your full name"
+                },
+                "email": {
+                    "label": "E-mail",
+                    "placeholder": "Your e-mail"
+                },
+                "phonenumber": {
+                    "label": "Phone",
+                    "placeholder": "Your phone number"
+                },
+                "description": {
+                    "label": "Description",
+                    "placeholder": "Describe what the inquiry is about"
+                },
+                "payment": {
+                    "label": "Fill in payment details",
+                    "processing": "Your order is being processed ..."
+                },
+                "terms": {
+                    "label": "I have read and accept Snapmed's {0}.",
+                    "terms": "terms of use"
+                }
+            },
+            "steps": "Step {0} of {1}"
+        },
+        "thank-you": {
+            "picture": {
+                "main_heading1": "Thank you",
+                "main_heading2": "We have received your case",
+                "sub_heading": "What happens next",
+                "step1": "Your case will be reviewed by one our Dermatologist in the next 24 hours.",
+                "step2": "Once your assessment is complete you will be notified via SMS.",
+                "secondary_heading": "Stay Connected",
+                "sub-text": "You can subscribe to our free monthly newsletter to get expert advice and exclusive offers from our dermatologists delivered straight to your inbox.",
+                "placeholder": "Email",
+                "button": "Sign up",
+                "success": "Your Email is subscribed with us. You will hear from us soon"
+            },
+            "picture-uk": {
+                "payment-successful": "Payment Successful",
+                "what-happens-next": {
+                    "heading": "What happens next :",
+                    "list1": "Your dermatologist will review your case.",
+                    "list2": "You will be notified with a link to see your report.",
+                    "list3": "You will be notified separately regarding your prescription medications."
+                },
+                "queries": "For queries, please use our chat feature, or reach us at ",
+                "queries-link": "support@snapmed.co.uk",
+                "back-button": "Back to Homepage"
+            }
+        }
+    },
+    "meta": {
+        "description": "Advice from dermatologists in 24 hours",
+        "url": "https://snapmed.co",
+        "terms": "https://snapmed.co/terms",
+        "check": "https://snapmed.co/check",
+        "offer": "Advice from dermatologists in {0} hours",
+        "og": {
+            "image": "https://snapmed.co/snapmed_en.png"
+        }
+    },
+    "questions": {
+        "skin_select": {
+            "note": "Here is why we ask.",
+            "note_detail": "In medical dermatology, some conditions appear more often in certain skin tones, or can vary in their appearance. Your clinician needs to know the natural colour of your skin."
+        },
+        "header": {
+            "existing-header": "Please login to authenticate yourself, we will be able to fetch your information",
+            "existing-patient-details": "Please confirm your details below : ",
+            "new-authentication": "Please confirm the details below for authentication purposes, In the future, you can access your case, medical profile and diagnosis by simply logging in."
+        },
+        "medical_details_editor": {
+            "header": "Medical History",
+            "current_medication": "Current medication :",
+            "alergy_to": "Allergy to any medication :",
+            "treatment_for": "Treatments for any other issues :",
+            "skin_conditions": "Any skin condition which runs in the family :"
+        },
+        "personal_details_editor": {
+            "header": "Personal Details",
+            "name": "Full Name :",
+            "birth_date": "Birth Date :",
+            "gender": "Gender :",
+            "pregnant": "Pregnant :",
+            "breastfeeding": "Breastfeeding :",
+            "skin_tone": "Skin Tone :",
+            "is_pragnent": "Are you pregnant?",
+            "is_brestfeeding": "Are you breastfeeding?"
+        },
+        "image": {
+            "or": "or",
+            "use": "Use this",
+            "take": "take picture",
+            "error": "Error uploading picture. Please try again.",
+            "upload": "Upload",
+            "retake": "Re-attach",
+            "id_proof_tooltip_text": "This is a regulatory requirement. It's how we protect your identity, and help keep your records secure."
+        },
+        "key": {
+            "enter_otp": "Enter verification code",
+            "error": "Something went wrong. Please contact the support team.",
+            "otp_error": "Your one-time code is incorrect. Please try again.",
+            "email_sent": "To complete the password reset, please click the secure link in the email we just sent to your registered email address.",
+            "email_absent": "No registered email found. Please contact snapmed support team for password reset."
+        },
+        "login": {
+            "bankid": "We use BankID for authentication. Click the button to log in.",
+            "key": "Please enter the one-time code we sent you by SMS.",
+            "email": "Please enter your email",
+            "error": "Phone number and/or password is incorrect. Please try again. ",
+            "phone": "To notify you and let you log in to review your case, please provide your phone number.",
+            "cta": {
+                "otp": "Send one-time code",
+                "login": "Log in"
+            },
+            "password": "You need to create a password or enter your existing password to submit and review your case later.",
+            "placeholder": {
+                "otp": "Your one-time code",
+                "phone": "+44 12345678",
+                "password": "Your personal password",
+                "email": "Your email"
+            },
+            "uk": {
+                "addPhone": "How can we reach you",
+                "mobileNumber": "Mobile number",
+                "contactNumber": "Contact Number:",
+                "key": "SMS verification code",
+                "email": "Email address:",
+                "password": "Enter password:",
+                "newUser": "Create Password:",
+                "createPassword": "Create a Password:",
+                "confirmPassword": "Re-type the password above:"
+            }
+        },
+        "partner": {
+            "phone": {
+                "verify": "Is this your phone number?",
+                "change": "Change",
+                "confirm": "Confirm"
+            },
+            "otp": {
+                "verify": "Please enter the code you received on SMS",
+                "notwork": "Doesn't work?",
+                "confirm": "Confirm"
+            },
+            "video": {
+                "description": "Describe what the inquiry is about"
+            }
+        },
+        "who": {
+            "question": "Is the assessment for yourself or a minor?",
+            "options": {
+                "me": "Me",
+                "other": "Minor"
+            }
+        },
+        "age": {
+            "question": {
+                "me": "How old are you?",
+                "other": "How old is the minor you are in care for?"
+            },
+            "append": {
+                "year": "years|year|years"
+            }
+        },
+        "name": {
+            "question": "Your full name",
+            "placeholder": "Full name"
+        },
+        "address": {
+            "question": "Personal address",
+            "placeholder": "Enter personal address"
+        },
+        "description": {
+            "question": "Tell us about your condition by describing:<br>1. How long have you had this condition?<br>2. Where on your body is it?<br>3. Any itching, stinging, bleeding or pain?<br>4. Any previous treatment?<br>5. Have you been to a doctor?",
+            "placeholder": "Describe here"
+        },
+        "uk_description": {
+            "question": "Please describe your condition",
+            "description": "Where is it? what does it feel like?",
+            "placeholder": "Type description here"
+        },
+        "body_part": {
+            "question": "Where on the body is it?",
+            "placeholder": "For example, eyelids, scalp, neck, elbow, arms, legs",
+            "legs": "Legs",
+            "hands": "Hands",
+            "chest": "Chest",
+            "face": "Face"
+        },
+        "duration": {
+            "question": "How long have you had this?",
+            "placeholder": "Days, months, years?"
+        },
+        "common": {
+            "options": {
+                "no": "No",
+                "yes": "Yes"
+            }
+        },
+        "payment": {
+            "time": {
+                "12": {
+                    "title": "12 hours",
+                    "price": "$ 45"
+                },
+                "24": {
+                    "price": "$ 75",
+                    "title": "24 hours"
+                },
+                "question": "How fast do you want an answer?"
+            },
+            "info": {
+                "question": "Please provide your payment information to complete your order. "
+            }
+        },
+        "imagecloseup": {
+            "question": "Please upload an up-close photo",
+            "description": "Hold camera 10 cm/4 inches away from the affected area",
+            "supported_files": "(Supported formats : Jpg, Jpeg, Png)",
+            "button": "Upload"
+        },
+        "imageoverview": {
+            "question": "Please upload a farther-away photo",
+            "description": "We also need an overview picture, about 30 cm/ 12 inches away.",
+            "supported_files": "(Supported formats : Jpg, Jpeg, Png)",
+            "button": "Upload"
+        },
+        "imageidProof": {
+            "question": "Please upload a photo ID",
+            "description": "Upload ID card",
+            "image_text": "Upload ID card",
+            "button": "Upload"
+        },
+        "ethnicity": {
+            "question": "Select your closest skin tone"
+        },
+        "date_of_birth": {
+            "question": "Date of birth"
+        },
+        "gender": {
+            "question": {
+                "me": {
+                    "minor": "Sex at birth?",
+                    "adult": "Sex at birth?"
+                },
+                "other": {
+                    "adult": "Sex at birth?",
+                    "minor": "Sex at birth?"
+                },
+                "subtext": "Men's and women's skin problems can vary"
+            },
+            "options": {
+                "man": {
+                    "minor": "Male",
+                    "adult": "Male"
+                },
+                "woman": {
+                    "minor": "Female",
+                    "adult": "Female"
+                }
+            }
+        },
+        "pregnant": {
+            "question": {
+                "me": "Are you pregnant?",
+                "other": "Is she pregnant?"
+            },
+            "options": {
+                "yes": "Yes",
+                "no": "No"
+            }
+        },
+        "breastfeeding": {
+            "question": {
+                "me": "Are you breastfeeding?",
+                "other": "Is she breastfeeding?"
+            },
+            "options": {
+                "yes": "Yes",
+                "no": "No"
+            }
+        },
+        "medication": {
+            "question": "Are you on any medication? If yes, for how long?",
+            "options": {
+                "yes": "Yes",
+                "no": "No"
+            }
+        },
+        "medication_description": {
+            "placeholder": "List each medication and for how long have you been taking it"
+        },
+        "allergy": {
+            "question": "Any allergies, including to medications?",
+            "options": {
+                "yes": "Yes",
+                "no": "No"
+            }
+        },
+        "allergy_description": {
+            "placeholder": "This includes allergies to medicines"
+        },
+        "treatment": {
+            "question": "Have you had treatment for any other medical issue?",
+            "options": {
+                "yes": "Yes",
+                "no": "No"
+            }
+        },
+        "treatment_description": {
+            "placeholder": "List all, not just skin conditions"
+        },
+        "family_history": {
+            "question": "Any type of skin diseases that runs in the family?",
+            "options": {
+                "yes": "Yes",
+                "no": "No"
+            }
+        },
+        "family_history_description": {
+            "placeholder": "List here"
+        },
+        "category": {
+            "options": {
+                "mole": "Mole",
+                "skin_cancer": "Skin cancer",
+                "rash": "Rash",
+                "video": "Video-consultation",
+                "picture": "Picture"
+            }
+        },
+        "skin_cancer": {
+            "size": {
+                "question": "Has the affected area expanded during the past weeks?"
+            },
+            "doctor": {
+                "question": "Have you been to your family doctor with the same condition?"
+            },
+            "change": {
+                "question": "Do you have the same symptoms on other parts of you body? "
+            },
+            "description": {
+                "question": "Could you provide a further description? Please describe if the area easily starts to bleed, if it hurts and a crust forms and falls of. Have you treated the area with something?"
+            }
+        }
+    },
+    "password": {
+        "reset": {
+            "new": "Your new password",
+            "back": "Back",
+            "label": "To reset your password, enter your registered phone number.",
+            "action": "Forgot your password?"
+        },
+        "placeholder": "Your personal password"
+    },
+    "examination": {
+        "table": {
+            "age": "Age",
+            "who": "Assessment of",
+            "uid": "Case #",
+            "charged": "Paid",
+            "category": "Category",
+            "diagnosed": "Assessed"
+        },
+        "labels": {
+            "ref": "Case ID #",
+            "category": "Category",
+            "who": "Assessment of",
+            "who-mobile": "Assesed",
+            "age": "Age",
+            "charged": "Paid",
+            "diagnosed": "Assessed"
+        }
+    },
+    "diagnosis": {
+        "category": {
+            "ok": "Apparently a condition that do not require further follow-up from a physician, with exception if the condition changes. ",
+            "warn": "Should be further assessed by a general physician or dermatologist.",
+            "check": "Should be further assessed by a general physician or dermatologist."
+        }
+    },
+    "errors": {
+        "card_declined": {
+            "approve_with_id": "The payment cannot be authorized.",
+            "call_issuer": "The card has been declined for an unknown reason. Please try again with a different card.",
+            "card_not_supported": "The card does not support this type of purchase. Please try again with a different card.",
+            "card_velocity_exceeded": "The card has exceeded the balance or credit limit available on their card. Please try again with a different card.",
+            "currency_not_supported": "The card does not support the specified currency. Please try again with a different card.",
+            "do_not_honor": "The card has been declined for an unknown reason. Please try again with a different card.",
+            "do_not_try_again": "The card has been declined for an unknown reason. Please try again with a different card.",
+            "duplicate_transaction": "A transaction with identical amount and credit card information was submitted very recently.",
+            "expired_card": "The card has expired. Please try again with a different card.",
+            "fraudulent": "The payment has been declined as Stripe suspects it is fraudulent.",
+            "generic_decline": "The card has been declined for an unknown reason. Please try again with a different card.",
+            "incorrect_number": "The card number is incorrect. Please try again with a different card.",
+            "incorrect_cvc": "The CVC number is incorrect.",
+            "incorrect_pin": "The PIN entered is incorrect. This decline code only applies to payments made with a card reader.",
+            "incorrect_zip": "The ZIP/postal code is incorrect.",
+            "insufficient_funds": "The card has insufficient funds to complete the purchase. Please try again with a different card.",
+            "invalid_account": "The card, or account the card is connected to, is invalid. Please try again with a different card.",
+            "invalid_amount": "The payment amount is invalid, or exceeds the amount that is allowed.",
+            "invalid_cvc": "The CVC number is incorrect.",
+            "invalid_expiry_year": "The expiration year invalid.",
+            "invalid_number": "The card number is incorrect.",
+            "invalid_pin": "The PIN entered is incorrect. This decline code only applies to payments made with a card reader.",
+            "issuer_not_available": "The card issuer could not be reached, so the payment could not be authorized.",
+            "lost_card": "The payment has been declined because the card is reported lost.",
+            "merchant_blacklist": "The payment has been declined.",
+            "new_account_information_available": "The card, or account the card is connected to, is invalid. Please try again with a different card.",
+            "no_action_taken": "The card has been declined for an unknown reason. Please try again with a different card.",
+            "not_permitted": "The payment is not permitted.",
+            "pickup_card": "The card cannot be used to make this payment. Please try again with a different card.",
+            "pin_try_exceeded": "The allowable number of PIN tries has been exceeded.",
+            "processing_error": "An error occurred while processing the card. Please try again with a different card.",
+            "reenter_transaction": "The payment could not be processed by the issuer for an unknown reason.",
+            "restricted_card": "The card cannot be used to make this payment (it is possible it has been reported lost or stolen) Please try again with a different card..",
+            "revocation_of_all_authorizations": "The card has been declined for an unknown reason. Please try again with a different card.",
+            "revocation_of_authorization": "The card has been declined for an unknown reason. Please try again with a different card.",
+            "security_violation": "The card has been declined for an unknown reason. Please try again with a different card.",
+            "service_not_allowed": "The card has been declined for an unknown reason. Please try again with a different card.",
+            "stolen_card": "The payment has been declined because the card is reported stolen. Please try again with a different card.",
+            "stop_payment_order": "The card has been declined for an unknown reason. Please try again with a different card.",
+            "testmode_decline": "A test card number was used.",
+            "live_mode_test_card": "A test card number was used.",
+            "transaction_not_allowed": "The card has been declined for an unknown reason. Please try again with a different card.",
+            "try_again_later": "The card has been declined for an unknown reason. Please try again with a different card.",
+            "withdrawal_count_limit_exceeded": "The balance or credit limit available on the card has been exceeded. Please try again with a different card.",
+            "unknown": "The transaction did not complete correctly. Please try again."
+        }
+    },
+    "promocode": {
+        "main_text": "Have a promo code?",
+        "enter_code_text": "Your promo code",
+        "not_exists": "Invalid Promo Code!",
+        "already_used": "Promo code has already been used!",
+        "expired": "Promo code has expired!",
+        "applied": "Promo Applied:",
+        "not_applicable": "Promo code is not applicable!",
+        "success": "Promo code applied!"
+    },
+    "header": {
+        "picture_consultation": "Picture Consultation",
+        "back": "Back",
+        "home": "Home"
+    },
+    "footer": {
+        "text": "All payments are securely processed"
+    }
+}

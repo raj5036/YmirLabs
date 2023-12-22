@@ -1,0 +1,32 @@
+{
+  "name": "snapmed",
+  "version": "2.21.0",
+  "description": "Snapmed - digital tjeneste for effektiv fjerndiagnostisering av hudsykdommer.",
+  "author": "Last Friday AS <dev@lastfriday.com>",
+  "private": true,
+  "scripts": {
+    "bump-hotfix-version-backend": "cd backend && npm version patch --no-git-tag-version",
+    "bump-hotfix-version-frontend": "cd frontend && npm version patch --no-git-tag-version",
+    "bump-hotfix-version-admin": "cd admin && npm version patch --no-git-tag-version",
+    "prebump-hotfix-version": "yarn bump-hotfix-version-backend && yarn bump-hotfix-version-frontend && yarn bump-hotfix-version-admin",
+    "bump-hotfix-version": "npm version patch --no-git-tag-version",
+    "bump-dev-version-backend": "cd backend && npm version minor --no-git-tag-version",
+    "bump-dev-version-frontend": "cd frontend && npm version minor --no-git-tag-version",
+    "bump-dev-version-admin": "cd admin && npm version minor --no-git-tag-version",
+    "prebump-dev-version": "yarn bump-dev-version-backend && yarn bump-dev-version-frontend && yarn bump-dev-version-admin",
+    "bump-dev-version": "npm version minor --no-git-tag-version",
+    "build-qa-frontend": "cd frontend && yarn build-qa",
+    "build-qa-admin": "cd admin && yarn build-qa",
+    "build-qa": "yarn build-qa-frontend && yarn build-qa-admin",
+    "build-frontend": "cd frontend && yarn build",
+    "build-admin": "cd admin && yarn build",
+    "build-production": "yarn build-frontend && yarn build-admin"
+  },
+  "dependencies": {
+    "cleave.js": "^1.6.0",
+    "moment": "^2.29.1",
+    "vue": "^2.6.12",
+    "vue-select": "^3.11.2",
+    "vuejs-datepicker": "^1.6.2"
+  }
+}

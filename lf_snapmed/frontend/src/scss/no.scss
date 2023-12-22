@@ -1,0 +1,68 @@
+.back-button-no{
+    color: white;
+    padding: 10px 0px;
+}
+
+#progress-bar-line{
+    width: 100%;
+}
+
+#line-progress{
+    border-radius: 16px;
+}
+
+.page-checkup-no {
+    // Checkup chat page layut
+    @include grid-width-limit-padding-no;
+    display: flex;
+    flex-direction: column;
+    // padding-bottom: spacing(10);
+    width: 100%;
+    min-height: calc(100vh - 70px);
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &--finished {
+        width: 100%;
+        padding: 0px;
+    }
+    &__continue {
+        @include chat-btn;
+        text-align: center;
+        margin: 43px auto 20px;
+        background: #5e4098;
+    }
+    &__processing {
+        text-align: center;
+    }
+    &__heading {
+        color: color(jade-black);
+        font-size: 150%;
+        text-align: left;
+        font-weight: 500;
+        @include breakpoint(small only) {
+            font-size: $font-medium;
+            padding: spacing(0) spacing(2);
+            margin: spacing(8) spacing(0) spacing(0);
+        }
+    }
+    &__sub-heading {
+        color: color(default-text);
+        font-size: $font-medium;
+        font-weight: normal;
+        text-align: left;
+        @include breakpoint(small only) {
+            font-size: $font-medium;
+        }
+    }
+    &__sub-text {
+        color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: $font-medium;
+        text-align: center;
+    }
+}

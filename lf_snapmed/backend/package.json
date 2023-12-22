@@ -1,0 +1,9 @@
+{
+  "name": "snapmed-backend",
+  "version": "2.21.0",
+  "author": "Last Friday AS <dev@lastfriday.com>",
+  "private": true,
+  "scripts": {
+    "serve": "/usr/local/opt/php@7.2/bin/php -S 127.0.0.1:9080 -t public"
+  }
+}

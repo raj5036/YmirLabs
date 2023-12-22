@@ -1,0 +1,480 @@
+@import 'foundation_settings';
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url('~@/assets/fonts/graphik/fonts.scss');
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+//                                    Settings                                               //
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+// Color
+
+// New colors
+$secondary-purple: #9c87a0;
+$default-text: #575255;
+$darkest-text: #1d1d1d;
+$mid-purple: #ded4db;
+$subtle-purple: #f9f7f8;
+$green: #54939b;
+$vibrant-light-green: #bfe6e9;
+$light-green: #e1f3f3;
+$jade-black: #27112d;
+$font-small: 0.8rem;
+$font-small-medium: 0.9rem;
+$font-medium: 1rem;
+$font-medium-large: 1.3rem;
+$font-large: 2rem;
+
+$uk-border-color: #cccccc;
+$uk-border-highlight: #89bbc2;
+$uk-text-color: #353a3f;
+
+$dd-bg: rgba(77, 69, 87, 1);
+
+$dd-text-colour: #4D4557;
+$dd-text-colour-light: white;
+$dd-text-colour-disabled: rgba(0, 0, 0, 0.54);
+$dd-text-colour-muted: rgba(0, 0, 0, 0.12);
+
+$dd-input-border: rgba(0, 0, 0, 0.54);
+$dd-input-border-active: #e5e5e5;
+$dd-input-border-confirmed: rgba(135, 243, 189, 1);
+$dd-input-border-error: rgba(223, 92, 68, 1);
+
+$dd-form-option-bg: white;
+$dd-form-option-bg-active: #DFD8EA;
+
+$snapmed-palette: (
+    blueberry: $blueberry,
+    violet-blue: $violet-blue,
+    light-mauve: $light-mauve,
+    pale-grey: $pale-grey,
+    medium-grey: $medium-grey,
+    dark-grey: $dark-grey,
+    light-blue: $light-blue,
+    dark-blue: $dark-blue,
+    very-light-pink: $very-light-pink,
+    light-grey-blue: $light-grey-blue,
+    light-blue-grey: $light-blue-grey,
+    light-grey-grey: $light-grey-grey,
+    white: $white,
+    black: $black,
+    success: $success,
+    warning: $warning,
+    error: $error,
+    // New colors
+        secondary-purple: $secondary-purple,
+    default-text: $default-text,
+    mid-purple: $mid-purple,
+    subtle-purple: $subtle-purple,
+    green: $green,
+    darkest-text: $darkest-text,
+    vibrant-light-green: $vibrant-light-green,
+    light-green: $light-green,
+    jade-black: $jade-black
+);
+
+// Spacing
+$global-spacing: 8px;
+
+// Global header height
+$global-header-heights: (
+    'small': 80px,
+    'medium': 120px,
+    'large': 150px
+);
+
+// Partner header height
+$partner-outer-spacing: $global-spacing * 3;
+$partner-max-width: 960px - ($partner-outer-spacing * 2);
+
+// Global footer height
+$global-footer-height: 80px;
+
+// Font families
+$sans-font-family: 'Work Sans', sans-serif;
+$serif-font-family: 'Libre Baskerville', serif;
+$dm-font-family: 'DM Serif Display', serif;
+
+// Font weights
+$WEIGHT_NORMAL: 400;
+$WEIGHT_MEDIUM: 500;
+$WEIGHT_BOLD: 700;
+$WEIGHT_LIGHT: 300;
+
+// Item border radius
+$item-border-radius-small: 4px;
+$item-border-radius-large: 8px;
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+//                                    Functions                                              //
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+
+// Spacing
+@function spacing($x: 1) {
+    @return $global-spacing * $x;
+}
+
+// Color - Return color from palette based on name
+@function color($name, $alpha: 1) {
+    @if ($alpha < 1) {
+        @return rgba(map-get($snapmed-palette, $name), $alpha);
+    } @else {
+        @return map-get($snapmed-palette, $name);
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+//                                    Keyframes                                              //
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+
+// Fade in
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+// Fade out
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+//                                    Mixins                                                 //
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+
+// Header font size
+@mixin header($hx) {
+    @include breakpoint(small) {
+        font-size: map-deep-get($header-styles, small, $hx, font-size) + 0px;
+    }
+    @include breakpoint(medium) {
+        font-size: map-deep-get($header-styles, medium, $hx, font-size) + 0px;
+    }
+}
+
+// Responsive property
+@mixin responsive-property($list, $prop) {
+    @each $rule, $value in $list {
+        @include breakpoint(#{$rule}) {
+            #{$prop}: $value;
+        }
+    }
+}
+
+// Hover transtions
+@mixin hover-transition($type: 'opacity') {
+    @if ($type== 'opacity') {
+        transition: opacity 0.3s ease-in-out;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}
+
+// Grid width with limit using padding to keep background and only one html element
+@mixin grid-width-limit-padding() {
+    @media (min-width: 1240px) {
+        $space: calc((100% - 1200px) / 2);
+        padding-left: $space;
+        padding-right: $space;
+    }
+    @media (max-width: 1240px) {
+        $space: calc((100% - 900px) / 2);
+        padding-left: $space;
+        padding-right: $space;
+    }
+    @media (max-width: 800px) {
+        $space: calc((100% - 700px) / 2);
+        padding-left: $space;
+        padding-right: $space;
+    }
+}
+
+@mixin grid-width-limit-padding-no() {
+    padding-inline: calc((100vw - 512px)/2);
+    @media (max-width: 800px) {
+        $space: calc((100% - 1100px) / 2);
+        padding-left: $space;
+        padding-right: $space;
+    }
+}
+
+@mixin icon-before($icon) {
+    display: flex;
+    column-gap: 4px;
+    &:before {
+        content: "";
+        min-height: 22px;
+        min-width: 22px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: $icon;
+    }
+}
+
+// Fade in out
+@mixin fadeInOut($state: false, $time: 0.3s) {
+    @if ($state) {
+        // In
+        display: inherit;
+        opacity: 1;
+        transition: display 0s ease-in-out 0s;
+        animation: fade-in $time;
+    } @else {
+        // Out
+        opacity: 0;
+        display: none;
+        animation: fade-out $time;
+        transition: display 0s ease-in-out $time;
+    }
+}
+
+// Chat btn style
+@mixin chat-btn() {
+    border-radius: 10px;
+    background: color(very-light-pink);
+    transition: all 0.3s ease-in-out, color 0.3s ease-in-out;
+    padding: 12px 32px;
+    font-weight: 500;
+    line-height: 1.4;
+    border: none;
+    cursor: pointer;
+    height: 48px;
+    font-size: 1rem !important;
+    outline: none;
+    &:disabled {
+        opacity: 0.75;
+    }
+    &:focus {
+        outline: none;
+    }
+    &--selected {
+        background: color(blueberry);
+        color: color(white);
+        @media (hover: none) {
+            &:hover {
+                background: color(blueberry);
+                color: color(white);
+            }
+        }
+    }
+    @include breakpoint(small only) {
+        padding: 8px 24px;
+        height: 40px;
+    }
+}
+
+@mixin stagger-animation {
+    opacity: 0;
+    animation: stagger ease-in 0.2s forwards 1;
+    animation-delay: calc(var(--order) * 0.1s); 
+}
+
+@mixin dd-input-button {
+    background-color: $dd-form-option-bg;
+    width: 360px;
+    @include breakpoint(small only) {
+        width: 100%;
+    }
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    border-radius: 8px;
+    color: $dd-text-colour;
+    &:hover{
+        background-color: #DFD8EA;
+    }
+}
+
+@mixin dd-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    width: 498px;
+    height: 56px;
+    background: #dfd8ea;
+    border-radius: 100px;
+    color: $dd-text-colour;
+    font-family: "Graphik Web";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    width: 100%;
+    &:disabled{
+        opacity: 0.5;
+    }
+}
+
+@mixin dd-input {
+    width: 362px;
+    @include breakpoint(small only) {
+        width: 100%;
+    }
+    height: 56px;
+    border-radius: 8px;
+    resize: none;
+    background: $dd-form-option-bg;
+    color: $dd-text-colour;
+    font-size: $font-medium;
+    padding: 16px 14px;
+    border: solid $dd-input-border 2px;
+    &:focus {
+        @include dd-input-focus();
+    }
+    &:focus-within {
+        @include dd-input-focus();
+    }
+    &::placeholder{
+        @include breakpoint(large only) {
+            position: absolute !important;
+            top: 15px !important;
+            color: black !important;
+            opacity: 0.56 !important;
+        }
+        
+    }
+}
+
+@mixin dd-input-large-text {
+    position: relative;
+    width: 362px;
+    @include breakpoint(small only) {
+        width: 100%;
+    }
+    height: 140px;
+    border-radius: 8px;
+    resize: none;
+    background: $dd-form-option-bg;
+    color: $dd-text-colour;
+    font-size: $font-medium;
+    padding: 16px 14px;
+    border: solid $dd-input-border 2px;
+    &:focus {
+        @include dd-input-focus();
+    }
+    &:focus-within {
+        @include dd-input-focus();
+    }
+    &::placeholder{
+        position: absolute;
+        top: 14px;
+    }
+}
+
+@mixin dd-input-focus {
+    outline: none;
+    box-shadow: 0 0 0 2px $dd-input-border-active,
+}
+
+@mixin dd-input-error {
+    outline: solid $dd-input-border-error 2px;
+}
+
+@mixin uk-input {
+    outline: none;
+    border: 1px solid $uk-border-color;
+    border-radius: 5px;
+    color: $uk-text-color;
+    background: transparent !important;
+    padding: 15px;
+    text-align: left;
+    resize: none;
+    height: 44px;
+    width: 369px;
+    display: flex;
+    align-items: center;
+    // overflow: hidden;
+    line-height: 1;
+    &:focus {
+        border-color: $uk-border-highlight;
+    }
+    &:focus-within {
+        border-color: $uk-border-highlight;
+    }
+    @include breakpoint(small only) {
+        width: 100%;
+    }
+}
+
+@mixin uk-button {
+    display: inherit;
+    opacity: 1;
+    -webkit-transition: display 0s ease-in-out 0s;
+    transition: display 0s ease-in-out 0s;
+    -webkit-animation: fade-in 0.3s;
+    animation: fade-in 0.3s;
+    background-color: transparent;
+    border: 1px solid $green;
+    border-radius: 24px;
+    color: $green;
+    min-width: 150px;
+    min-height: 48px;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    font-size: 1rem;
+    margin-top: 10px;
+    padding: 13px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    :disabled {
+        opacity: 0.75;
+    }
+    @include breakpoint(small only) {
+        min-width: 120px;
+        padding-inline: 8px;
+    }
+}
+
+// Chat input style
+@mixin chat-input {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    line-height: 1.4;
+    background: color(very-light-pink);
+    position: relative;
+    padding: 12px 32px;
+    @include breakpoint(small only) {
+        padding: 8px 16px;
+    }
+}
+
+// Custom scrollbar
+@mixin scrollbars(
+    $size,
+    $foreground-color,
+    $background-color: mix($foreground-color, white, 50%)
+) {
+    &::-webkit-scrollbar {
+        width: $size;
+        height: $size;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: $foreground-color;
+    }
+    &::-webkit-scrollbar-track {
+        background: $background-color;
+    }
+}
+
+@mixin graphikRegular {
+    font-family: 'Graphik Web';
+    font-weight:  400;
+    font-style:   normal;
+    font-stretch: normal;
+  }
+  

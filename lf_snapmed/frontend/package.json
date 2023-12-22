@@ -1,0 +1,112 @@
+{
+  "name": "snapmed-frontend",
+  "version": "2.25.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve-se": "vue-cli-service serve --mode development.se",
+    "build": "yarn build-production-no && yarn build-production-se",
+    "build-production-no": "vue-cli-service build --mode production.no",
+    "build-production-se": "vue-cli-service build --mode production.se",
+    "build-qa": "yarn build-qa-no && yarn build-qa-se",
+    "build-qa-no": "vue-cli-service build --mode qa.no",
+    "build-qa-se": "vue-cli-service build --mode qa.se",
+    "lint": "vue-cli-service lint",
+    "test:e2e": "vue-cli-service test:e2e"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.55.0",
+    "@aws-sdk/s3-request-presigner": "^3.55.0",
+    "@bachdgvn/vue-otp-input": "^1.0.8",
+    "aws-sdk": "^2.1074.0",
+    "core-js": "^2.6.5",
+    "crypto-js": "^4.0.0",
+    "fuse.js": "^6.5.3",
+    "inputmask": "^5.0.7",
+    "libphonenumber-js": "^1.6.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.24.0",
+    "sass": "^1.25.0",
+    "seamless-scroll-polyfill": "^2.1.8",
+    "secure-ls": "^1.2.6",
+    "vee-validate": "^2.1.0-beta.11",
+    "verifiera": "^1.3.0",
+    "vue": "^2.6.10",
+    "vue-breakpoints": "^1.1.0",
+    "vue-fragment": "^1.5.2",
+    "vue-i18n": "^8.2.1",
+    "vue-meta": "^1.5.5",
+    "vue-router": "3.1.3",
+    "vue-select": "^3.20.0",
+    "vue-stepper": "^1.4.2",
+    "vue-stripe-elements-plus": "0.3.0",
+    "vuejs-datepicker": "^1.6.2",
+    "vuejs-progress-bar": "^1.2.8",
+    "vuelidate": "^0.7.4",
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@kazupon/vue-i18n-loader": "^0.3.0",
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-e2e-cypress": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "axios": "^0.18.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "foundation-sites": "^6.4.4-rc1",
+    "prerender-spa-plugin": "^3.4.0",
+    "sass-loader": "^7.1.0",
+    "vue-cli-plugin-axios": "^0.0.4",
+    "vue-cli-plugin-i18n": "^0.5.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "globals": {
+      "gtag": true
+    },
+    "rules": {
+      "arrow-parens": 0,
+      "object-curly-spacing": 0,
+      "semi": [
+        1,
+        "always"
+      ],
+      "indent": [
+        1,
+        4,
+        {
+          "SwitchCase": 1,
+          "VariableDeclarator": 1
+        }
+      ],
+      "no-debugger": [
+        0,
+        "always"
+      ]
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

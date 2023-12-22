@@ -1,0 +1,9 @@
+lm_snapmed.sql
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+/public/uploads
+/public/referrals
+.DS_Store
+.vscode

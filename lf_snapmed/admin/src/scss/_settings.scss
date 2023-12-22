@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+//                                    Settings                                               //
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+
+$blueberry: #5e4098;
+$violet-blue: #5b02a9;
+$light-mauve: #ded4db;
+$pale-grey: #f0ecef;
+$very-light-pink: #fdf1f1;
+$light-grey-blue: #a0d6d7;
+$light-blue-grey: #cee9eb;
+$jade-black: #27112D;
+
+$white: #fff;
+$light-gray: $pale-grey;
+$medium-gray: $violet-blue;
+$dark-gray: $violet-blue;
+$black: #000;
+
+// Color
+$snapmed-palette: (
+    blueberry: $blueberry,
+    violet-blue: $violet-blue,
+    light-mauve: $light-mauve,
+    pale-grey: $pale-grey,
+    very-light-pink: $very-light-pink,
+    light-grey-blue: $light-grey-blue,
+    light-blue-grey: $light-blue-grey,
+    white: $white,
+    jade-black: $jade-black
+);
+
+$body-font-family: 'Work Sans', sans-serif;
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+//                                    Mixins                                                 //
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+
+// Color - Return color from palette based on name
+@function color($name, $alpha: 1.0) {
+    @if ($alpha < 1.0) {
+        @return rgba(map-get($snapmed-palette, $name), $alpha);
+    }
+    @else {
+        @return map-get($snapmed-palette, $name);
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //

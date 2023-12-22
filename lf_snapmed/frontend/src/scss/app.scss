@@ -1,0 +1,265 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+
+Project: Snapmed
+By: Last Friday (https://lastfriday.no/)
+
+Styling guide: BEM (http://getbem.com/naming/)
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@charset 'utf-8';
+@import 'foundation_imports';
+@import 'settings';
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Work+Sans:300,400,500,700&display=swap');
+@import 'vue-select/src/scss/vue-select.scss';
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+//                                      GENERIC                                              //
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+html {
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 18px;
+    @include breakpoint(large) {
+        font-size: 16px;
+    }
+    @include breakpoint(small only) {
+        font-size: 16px;
+    }
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: $dd-bg;
+    @include graphikRegular;
+    color: $body-font-color;
+    line-height: 1.4;
+    &.no-scroll {
+        overflow: hidden;
+    }
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100%;
+    min-height: 100vh;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $body-font-family;
+    font-weight: normal;
+    line-height: 1.4;
+    margin-top: 0;
+}
+
+h1 {
+    @include header(h1);
+    font-weight: bold;
+}
+
+h2 {
+    @include header(h2);
+}
+
+h3 {
+    @include header(h3);
+}
+
+h4 {
+    @include header(h4);
+}
+
+input,
+textarea {
+    font-size: $font-small-medium;
+}
+
+.modal-open {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+label {
+    &.subtle-label {
+        font-size: 75%;
+        @include breakpoint(small only) {
+            font-size: 62.5%;
+        }
+        text-transform: uppercase;
+        color: color(secondary-purple);
+    }
+}
+
+a {
+    color: color(blueberry);
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.larger-text {
+    font-size: 125%;
+}
+
+.max-w-intro {
+    max-width: 580px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+//                                    Global classes                                         //
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+
+.loader {
+    margin: spacing(5) auto;
+    width: 100px;
+    .dot {
+        animation-name: blink;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+        &--1 {
+            animation-delay: 0s;
+        }
+        &--2 {
+            animation-delay: 0.5s;
+        }
+        &--3 {
+            animation-delay: 1s;
+        }
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0.2;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+
+.align-center-on-small {
+    display: flex;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+button,
+.button {
+    cursor: pointer;
+    @include dd-input-button;
+}
+
+.page-video__actions a {
+    text-decoration: none;
+}
+
+.page-content-loader {
+    display: flex;
+    flex-flow: column;
+}
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+//                                    Global layout                                          //
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+
+main {
+    // padding: spacing(1);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    &[class^='partner'] {
+        padding: 0;
+        section {
+            width: 100%;
+        }
+    }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition-property: opacity;
+    transition-duration: 0.25s;
+}
+
+.fade-enter-active {
+    transition-delay: 0.25s;
+}
+
+.fade-enter,
+.fade-leave-active {
+    opacity: 0;
+}
+.link {
+    color: color(blueberry);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.w-100 {
+    width: 100% !important;
+}
+.bankid-login{
+    div{
+        width: 100%;
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+
+
+@keyframes stagger {
+	from{
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+[aria-invalid='true']{
+    border-color: red !important;
+    border-width: 2px !important;
+}
+
+.dd-error-text{
+    display: flex;
+    column-gap: 4px;
+    align-self: flex-start;
+    margin-top: 8px;
+    &:before {
+        content: "";
+        min-height: 22px;
+        min-width: 22px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("~@/assets/icons/error.svg");
+    }
+}
+
+.dd-button-light{
+    background: transparent !important;
+    border: 1px solid $dd-text-colour !important;
+}
+
+.dd-button-dark{
+    background: $dd-text-colour !important;
+    color: $dd-text-colour-light !important;
+}

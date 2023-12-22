@@ -1,0 +1,293 @@
+{
+    "title": {
+        "urgent": "Urgent cases",
+        "total": "Total number of cases",
+        "assignments": "Cases",
+        "examination": "Examination",
+        "diagnosis": "Assessment",
+        "categorisation": "Categorisation of case",
+        "clients": "Clients",
+        "cases": "Cases marked as interesting",
+        "profile": "Profile",
+        "login": "Login",
+        "new_photos": "Reason for second opinion",
+        "partner_select": "Select partner",
+        "to_from_dates": "Fill in dates",
+        "forgot_password": "Reset password",
+        "verify_identity": "Verify Identity",
+        "create_password": "Create Password",
+        "add_doctor": "Add a doctor"
+    },
+    "action": {
+        "change_password": "Change Password",
+        "next": "Next",
+        "profile": "Show profile",
+        "partner": "Statistics",
+        "add_doctor": "Invite a doctor",
+        "send_otp": "Send one-time code",
+        "create": "Create",
+        "invite": "Send Invitation",
+        "add_new": "Add Another",
+        "login": "Logg inn",
+        "forgot_password": "Forgot Password?",
+        "verifyOtp": "Verify one-time code",
+        "logout": "Logout",
+        "submit_exam": "Send assessment to patient",
+        "save_exam": "Save assessment",
+        "download": "Download",
+        "new_photos": "Request new pictures",
+        "update_private_description": "Update diagnostic code",
+        "photos": {
+            "cancel": "Cancel",
+            "request": "Send request"
+        }
+    },
+    "answer": {
+        "options": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "label": {
+        "email": "Email",
+        "password": "Password",
+        "otp": "One-time code",
+        "marked": "Marked",
+        "registered_mobile_no": "Please enter your registered mobile number with country code",
+        "new_password": "Enter new password",
+        "conf_password": "Confirm password",
+        "current_password": "Enter current password",
+        "terms": "I agree with Snapmed's <a href={0} target='_blank'>privacy policy</a> and <a href={0} target='_blank'>terms and conditions</a>",
+        "terms_url": "https://snapmed.co/terms"
+    },
+    "alert": {
+        "contact": "Contact the client on: ",
+        "invalid_token": "Link has already been used",
+        "phone_no_exists": "Phone number is already registered.",
+        "invalid_otp": "Provided OTP is incorrect.",
+        "email_exists": "User with given email already exists.",
+        "email_send_failed": "Unable to send email, please contact support team."
+    },
+    "assignment": {
+        "category": "Category",
+        "charged": "Registered",
+        "deadline_time": "Deadline time",
+        "deadline": "Requested answer interval",
+        "hours": "Hours"
+    },
+    "diagnosis": {
+        "categorisation_label": "Search by name or code",
+        "search_loader": "Loading…",
+        "search_no_result": "No results",
+        "search_promt_text": "Write to search…",
+        "clear_all": "Clear all" ,
+        "second_opinion": "Second opinion",
+        "category": {
+            "ok": "Tilsynelatende ufarlig​ tilstand som ikke trenger oppfølging med UNNTAK av om hudforandringen endrer seg. ",
+            "warn": "Mistenkelig hudforandring  som kan representere alvorlig hudsykdom. Må undersøkes nærmere​ hos lege eller spesialist.",
+            "check": "Mistanke om alvorlig hudsykdom. ​Oppsøk lege snarlig."
+        },
+        "description": "Assessment for patient",
+        "description_private_upated": "Diagnosis code updated",
+        "interesting": "Mark this case as interesting",
+        "prescription": "Does this case contain a prescription? "
+    },
+    "search": {
+        "user": "Search for patient by phone- or social security number",
+        "case": "Search for case",
+        "placeholder": "Write here",
+        "button": "Search"
+    },
+    "patient": {
+        "gotocase": "Go to case"
+    },
+    "examination": {
+        "email": {
+            "label": "Email"
+        },
+        "body_part":{
+            "label": "Body Part"
+        },
+        "illness":{
+            "label": "Problems"
+        },
+        "ethnic": {
+            "label": "Skin Colour"
+        },
+        "dob": {
+            "label": "DOB"
+        },
+        "name": {
+            "label": "Name"
+        },
+        "address": {
+            "label": "Address"
+        },
+        "disease_duration": {
+            "label": "Duration"
+        },
+        "past_treatment": {
+            "label": "Past Treatments"
+        },
+        "family_history": {
+            "label": "Family History"
+        },
+        "ssn": {
+            "label": "Social security number"
+        },
+        "childSsn": {
+            "label": "Child social security number"
+        },
+        "partner": {
+            "label": "Partner"
+        },
+        "deadline": {
+            "label": "Deadline"
+        },
+        "who": {
+            "label": "Who is the assessment for?",
+            "me": "Patient",
+            "other": "Minor"
+        },
+        "age": {
+            "label": "Age"
+        },
+        "pregnant": {
+            "label": "Pregnant",
+            "yes": "Yes",
+            "no": "No"
+        },
+        "breastfeeding": {
+            "label": "Breastfeeding",
+            "yes": "Yes",
+            "no": "No"
+        },
+        "gender": {
+            "label": "Gender",
+            "female": "Female",
+            "male": "Male",
+            "woman": "Female",
+            "man": "Male"
+        },
+        "category": {
+            "label": "Kategori",
+            "mole": "Føflekk",
+            "skin_cancer": "Hudkreft",
+            "rash": "Utslett",
+            "other": "Annet",
+            "video": "Video consultation"
+        },
+        "contact": {
+            "label": "Phone number"
+        },
+        "duration": {
+            "label": "Duration",
+            "days": "Days",
+            "weeks": "Weeks",
+            "months": "Months",
+            "years": "Years"
+        },
+        "description": {
+            "label": "Description"
+        },
+        "medication_description": {
+            "label": "Medicines description"
+        },
+        "allergy_description": {
+            "label": "Allergies description"
+        },
+        "new_photos": {
+            "reason": "Reason for new pictures"
+        }
+    },
+    "questions": {
+        "description": {
+            "question": "Hvordan oppstod dette? Hvordan oppleves det f.eks kløe, smerter, blødning etc? Har du hatt lignende tidligere? Har du behandlet med noe? Har du vært host legen med dette tidligere?"
+        },
+        "mole": {
+            "size": {
+                "question": "Er den større enn før?"
+            },
+            "symmetri": {
+                "question": "Har formen/asymmetri endret seg?"
+            },
+            "color": {
+                "question": "Har fargen endret seg?"
+            },
+            "change": {
+                "question": "Totalt sett, synes du føflekken har endret seg uavhengig av tidligere spørsmål?"
+            },
+            "others": {
+                "question": "Har noen andre i familien hatt føflekkreft? "
+            },
+            "doctor": {
+                "question": "Har du vært til fastlegen med samme problemstilling?"
+            },
+            "description": {
+                "question": "Beskriv området som er påvirket",
+                "next": "Gå til login og betaling"
+            }
+        },
+        "rash": {
+            "same": {
+                "question": "Har du flere av samme typer utslett på kroppen?"
+            },
+            "cold": {
+                "question": "Har du vært forkjølet eller hatt en infeksjon i kroppen de siste 4 ukene?"
+            },
+            "drugs": {
+                "question": "Tror du utslettet kan være forårsaket av medisiner, kremer og etc?"
+            },
+            "doctor": {
+                "question": "Har du vært til fastlegen med problemstillingen?"
+            },
+            "description": {
+                "question": "Beskriv området som er påvirket; Kløe, smerter, væskende og behandlinger etc?"
+            }
+        },
+        "skin_cancer": {
+            "change": {
+                "question": "Har du flere av de samme forandringene på kroppen?"
+            },
+            "size": {
+                "question": "Har forandringen blitt større i løpet av noen uker?"
+            },
+            "doctor": {
+                "question": "Har du vært til fastlegen med problemstillingen?"
+            },
+            "description": {
+                "question": "Beskriv området som er påvirket; Lettblødende, smerter, skorpe som faller av og kommer fort tilbake, og behandlinger du har foretatt etc?"
+            }
+        }
+    },
+    "rules": {
+        "email": {
+            "required": "Epost er påkrevet."
+        },
+        "password": {
+            "minLength": "Minimum lengde på passord er 6 tegn.",
+            "required": "Password is required",
+            "same": "Password and Confirm Password should be same"
+        },
+        "otp": {
+            "length": "Antall tegn stemmer ikke med engangskoden sendt."
+        },
+        "number": {
+            "required": "Phone number is required",
+            "invalid": "Invalid phone number"
+        },
+        "terms": "You must agree to continue!"
+    },
+    "statements": {
+        "password-reset": "Your password has been reset",
+        "password-reset-error": "Your reset link expired, try again!",
+        "click-here": "Click here to ",
+        "log-in": "Log in",
+        "reset-again": "reset-again",
+        "match_err": "Your current password does not match with the password you provided.",
+        "same_err": "New password cannot be same as old password. Choose another password",
+        "password_not_match": "New password and confirm password does not match",
+        "success": "Your password is changed successfullly",
+        "not_found": "User not found"
+    }
+}

@@ -1,0 +1,627 @@
+{
+    "storebrand": {
+        "login": {
+            "heading": "Innan vi kan hjälpa dig behöver du godkänna följande",
+            "info-header": "DKV Hälsa delar följande information med Dr. Dropin Hud:",
+            "info-text": "För att hudläkaren ska kunna ge dig råd och behandling delas: Namn, personnummer, telefonnummer och avtalsnummer. Det överförs och lagras säkert.",
+            "privacy-header": "Dr. Dropin Huds villkor och integritetspolicy",
+            "privacy-text": "För att kunna erbjuda medicinsk rådgivning sparar Dr. Dropin Hud personuppgifter om dig. Detta sparas säkert och kan enkelt raderas om du önskar. Utöver detta sparas anonymiserad användarinformation för att förbättra tjänsten. Läs mer här: villkor och integritetspolicy",
+            "fail-alert": "Inloggning misslyckades. Vänligen backa och försök igen.",
+            "missing-info-alert": "Snapmed kan inte logga in dig på grund av att det saknas information om dig från ditt försäkringsbolag. Vänligen kontakta supporten.",
+            "timeout-string-alert": "Tidfristen för inloggning kan ha runnit ut. Försök att stänga detta fönster och navigera tillbaka för att göra ett nytt försök. (felkod: ",
+            "timeout-alert": " Tidfristen för inloggning kan ha runnit ut. Försök att stänga detta fönster och navigera tillbaka för att göra ett nytt försök.",
+            "close": "Klicka på X uppe i hörnet för att stänga Snapmed.",
+            "terms": "Användarvillkor",
+            "privacy": "Sekretesspolicy"
+        },
+        "select": {
+            "heading": "Vi ger dig medicinska råd, recept eller remiss direkt i mobilen",
+            "picture-header": "Skicka bilder till hudläkare",
+            "picture-text": "Få medicinska råd inom 24 timmar",
+            "video-header": "Videosamtal med hudläkare",
+            "video-text": "Få medicinska råd, recept eller remiss",
+            "info": "Våra hudläkare jobbar också på hudmottagningar på svenska sjukhus."
+        },
+        "picture": {
+            "title": "Skicka bilder till hudläkare",
+            "intro": "Svara på några frågor och bifoga två bilder av ditt tillstånd. vi gör en bedömning och svarar dig inom 24 timmar. Du får då mediicnska råd och vid behov remiss vidare.",
+            "list_1": "Svar inom 24 timmar garanteras",
+            "list_2": "Råd, recept och remisser",
+            "list_3": "Enkelt, säkert och tryggt",
+            "button": "Fortsätt"
+        },
+        "video": {
+            "title": "Videosamtal med hudläkare",
+            "intro": "Boka en tid i kalendern och få en länk till videosamtalet via SMS. Träffa en av oss på video som vi ett vanligt läkarbesök. Du får råd, behandling och vidare uppföljning vid behov.",
+            "list_1": "När och var det passar dig",
+            "list_2": "Råd, recept och remisser",
+            "list_3": "Enkelt, säkert och tryggt",
+            "button": "Fortsätt"
+        },
+        "picture-confirm": {
+            "heading": "Ditt ärende har skickats",
+            "intro": "Du kontaktas via SMS så fort en hudläkare har bedömt ditt ärende.",
+            "aurora-button": "Tillbaka till Aurora",
+            "blifrisk-button": "Tillbaka till {0} Hälsa"
+        },
+        "video-confirm": {
+            "heading": "Din tid är bekräftad",
+            "intro": "Då får ett SMS med en länk till videosamtalet 30 minuter innan samtalet.",
+            "aurora-button": "Tillbaka till Aurora",
+            "blifrisk-button": "Tillbaka till {0} Hälsa"
+        }
+    },
+    "landing": {
+        
+    },
+    "title": {
+        "404": "Hittade inte sidan",
+        "home": "Snapmed",
+        "check": "Fråga hudläkare",
+        "response": "Kolla mitt svar",
+        "video": "Beställ tid hos hudläkare",
+        "reset_password": "Återställ lösenord"
+    },
+    "lang": {
+        "switch": {
+            "label": "English",
+            "url": "https://snapmed.co"
+        }
+    },
+    "meta": {
+        "description": "Hudkontroll av Specialist inom 24 timmar.",
+        "url": "https://snapmed.no",
+        "terms": "https://snapmed.se/användarvillkor",
+        "check": "https://snapmed.no/check",
+        "offer": "Hudkontroll av specialist inom {0} timmar.",
+        "og": {
+            "image": "https://snapmed.no/snapmed_nb.png"
+        }
+    },
+    "btn": {
+        "check": "Kolla mitt svar",
+        "check_response": "Kolla svar",
+        "checkNow": "Fråga hudläkare",
+        "readMore": "Läs mer här",
+        "charge": "Beställ konsultation",
+        "otp": "Få engångskod",
+        "confirm": "Bekräfta",
+        "change": "Byt",
+        "resend_otp": "Skicka engångslösenord",
+        "resend_otp_in": "Skicka engångslösenord igen om",
+        "close": "Avsluta",
+        "go_back": "Tillbaka",
+        "next": "Fortsätt",
+        "phone_text": "Nästa"
+    },
+    "appointment": {
+        "header": {
+            "week": "Vecka {0} - {1}",
+            "next": "Nästa vecka",
+            "prev": "Föregående vecka"
+        }
+    },
+    "page": {
+        "close-modal":{
+            "few-step-away": "Du är på väg att avsluta din beställning, är du säker på att du vill avbryta?",
+            "back-homepage": "Til hjemmesiden",
+            "complete-booking": "Fortsett bestillingen",
+            "skip": "Skip",
+            "your-feedback": "Vi försöker hela tiden att förbättra oss. Din feedback kan hjälpa.",
+            "how-improve": "Hur kan vi förbättra oss?",
+            "submit": "Skicka"
+        },
+        "verification": {
+            "verified": "Din email är verifierad",
+            "not_verified": "Din verifieringslänk har gått ut",
+            "login": "Logga in",
+            "send_again": "Gå tillbaka"
+        },
+        "login": {
+            "login_bankid_btn": "Logga in med BankID",
+            "login_bankid_mobile_btn": "Logga in med mobilt BankID",
+            "login_with_phone_instead": "Logga in med telefonnummer istället?",
+            "no_bankid_user_found": "Hittade ingen användare ansluten till detta BankID",
+            "no_bankid_try_again": "Försök igen"
+        },
+        "partnerlogin": {
+            "confirmbutton": "Bekräfta och fortsätt",
+            "title": "Skicka bild till hudläkaren",
+            "continue": "Fortsätt",
+            "submit": "Skicka in",
+            "newcase": "Ta upp ett annat ärende",
+            "casecode": "Ditt ärendes kod är: ",
+            "thankyou": "Skriv ett meddelande till Snapmed med denne koden. Vi kommer svara på ditt meddelande inom 24 timmar och återkomma till dig."
+        },
+        "check": {
+            "title": "Hej och välkommen till Snapmed.",
+            "subtitle": "Vi kommer nu att ställa några frågor till dig för att kartlägga ditt tillstånd.",
+            "paymenttitle": "Slutför beställning",
+            "finish": "Tack for din beställning.",
+            "finishsubtitle": "En av våra hudläkare kommer titta på ditt ärende så fort de har tid. Du får besked via SMS när bedömningen är klar.",
+            "otp_error": "Engångskoden stämde inte.",
+            "otp_retry": "Vänligen försök igen med en ny engångskod!",
+            "phone_error": "Telefonnumret stämmer inte. Vänligen ange ett mobiltelefonnummer som kan ta emot SMS.",
+            "email_error": "Din email är inte giltig. Ange en emailadress som kan ta emot verifieringsmail",
+            "email_already_exists": "Email finns redan",
+            "reset": "Påbörja ny undersökning",
+            "continue": "Gå till inloggning och betalning",
+            "partnerContinue": "Nästa",
+            "minor": "Härmed bekräftar jag att jag är vårdnadshavare för den minderårig som ärendet gäller och har rätt att ta emot och skicka hälsoinformation gällande henne/honom.",
+            "apply": "Tillämpa",
+            "subtotal": "Delsumma",
+            "enter_promocode": "Ange rabattkod",
+            "payment_processing": "Vänligen ladda inte om sidan medans vi bearbetar din betalning",
+            "empty_error": "Detta fält får inte vara tomt",
+            "payment":{
+                "total": "Totalt",
+                "code": "Ange rabattkod",
+                "price": "Bildkonsultation",
+                "card_details": "Kortdetaljer",
+                "expiry": "Utgångsdatum",
+                "cvc": "CVC",
+                "Your card was declined.": "Ditt kort godkändes ej.",
+                "Your card's security code is incorrect.": "Ditt korts säkerhetskod är felaktig."
+            }
+        },
+        "response": {
+            "email_not_verified": "Bekräfta din emailadress genom att klicka på länken som skickats till din email",
+            "resend_email": "Skicka email igen",
+            "login": {
+                "title": "Kolla ditt svar",
+                "microcopy": "När du trycker på denna knapp skickas du till en sida för inloggning med BankID."
+            },
+            "logout": "Logga ut",
+            "password": {
+                "update": {
+                    "title": "Ange ditt nya lösenord",
+                    "btn": "Bekräfta"
+                },
+                "anchor": "Ändra lösenord",
+                "title": "Ändra ditt befintliga lösenord",
+                "current": "Nuvarande lösenord",
+                "new": "nytt lösenord",
+                "confirm": "Bekräfta nytt lösenord",
+                "back": "Gå tillbaka",
+                "continue": "Fortsätt",
+                "empty_err": "Vänligen fyll i ovanstående information.",
+                "length_err": "Ett nytt lösenord måste vara minst sex tecken långt.",
+                "confirm_err": "Nya och bekräfta lösenord matchar inte.",
+                "match_err": "Ditt nuvarande lösenord matchar inte det lösenord du angav. Var god försök igen.",
+                "same_err": "Ett nytt lösenord kan inte vara detsamma som ditt nuvarande lösenord. Välj ett annat lösenord.",
+                "success": "Lösenordet har ändrats!",
+                "error": "Något gick fel. Kontakta supportteamet.",
+                "expire": "Verkar som en ogiltig eller begagnad länk.",
+                "updated": "Ditt lösenord har blivit återställt.<br>Klicka här för att <a href={0}>Logga in</a>"
+            },
+            "result": {
+                "multiple": "Mina undersökningar",
+                "selected": "Läkarens bedömningar"
+            },
+            "diagnosed": {
+                "0": "Nej",
+                "1": "Ja"
+            },
+            "cta": {
+                "second_opinion": "Begär en uppföljning",
+                "back": "Tilbaka till översikt"
+            },
+            "modal": {
+                "title": "Varför behöver du en uppföljningsbedömning?",
+                "grounds": "Anledning",
+                "cta": {
+                    "cancel": "Avbryt",
+                    "download": "Nedladdning"
+                }
+            }
+        },
+        "results": {
+            "upload": "Vänligen ladda upp nya bilder:",
+            "update": "Uppdatera undersökning",
+            "not_ready": "Din diagnos är inte klar. DU kommer få SMS när din diagnos är klar.",
+            "description": "Din beskrivning",
+            "duration": "Upplevd varaktighet:",
+            "imagecloseup": "Närbild",
+            "imageoverview": "Översiktsbild",
+            "imagecloseup_alt": "Närbild som tagits av dig",
+            "imageoverview_alt": "Översiktsbild som tagits av dig"
+        },
+        "video": {
+            "login": {
+                "short_title": "Beställning"
+            },
+            "title": "Beställ tid hos hudläkare",
+            "short_title": "Bokning",
+            "book": {
+                "no_slots": "Ingen tillgänglig",
+                "loading": "Hämtar tillgängliga tider",
+                "actions": {
+                    "next": "Nästa steg"
+                }
+            },
+            "confirm-partner": {
+                "title": "Bekräfta bokning",
+                "short_title": "Bekräfta bokning",
+                "complete": "Tack för din beställning!",
+                "change_date": "Ändra tid"
+            },
+            "confirm": {
+                "title": "Bekräfta beställning",
+                "short_title": "Bekräfta beställning",
+                "complete": "Tack för din beställning!",
+                "change_date": "Ändra tid",
+                "actions": {
+                    "back": "Tillbaka",
+                    "next": "Bekräfta tid och betala"
+                },
+                "appointment": {
+                    "error": "Du har inte längre en valt en tid. Kan du gå tillbaka och välja en ny tid?"
+                },
+                "name": {
+                    "label": "Namn",
+                    "placeholder": "Ditt fullständiga namn"
+                },
+                "email": {
+                    "label": "E-post",
+                    "placeholder": "Din e-postadress"
+                },
+                "phonenumber": {
+                    "label": "Telefonnummer",
+                    "placeholder": "Ditt telefonnummer"
+                },
+                "description": {
+                    "label": "Beskrivning",
+                    "placeholder": "Beskriv kort vad saken gäller"
+                },
+                "payment": {
+                    "label": "Fyll i betalningsinformation",
+                    "processing": "Din beställning behandlas ..."
+                },
+                "terms": {
+                    "label": "Jeg har läst och godtar Snapmed {0}.",
+                    "terms": "användarvillkor"
+                }
+            },
+            "steps": "Steg {0} av {1}"
+        },
+        "thank-you": {
+            "picture":{
+                "thank-you": "Tack!",
+                "recieved-case" : "Vi har mottagit ditt ärende.",
+                "list-1": "Ditt ärende kommer att bli undersökt av en av våra hudläkare inom 24 timmar.",
+                "list-2": "Så fort vi har behandlat ditt ärende kommer du att få ett SMS med information om var du kan läsa ditt svar.",
+                "back-home": "Tillbaka till hemsidan"
+            },
+            "video":{
+                "thank-you": "Tack! ",
+                "recieved-case" : "Vi har tagit emot din beställning.",
+                "list-1": "Vi har nu bokat en tid hos en av våra hudläkare för din konsultation.",
+                "list-2": "Du får ett sms cirka 30 minuter innan överenskommen konsultation med länk till videorummet där du träffar läkaren.",
+                "back-home": "Tillbaka till hemsidan"
+            }
+        }
+    },
+    "examination": {
+        "table": {
+            "uid": "Kontrollera #",
+            "charged": "Betalat",
+            "category": "Kategori",
+            "who": "Undersökning av",
+            "age": "Ålder",
+            "diagnosed": "Bedömt"
+        },
+        "labels": {
+            "ref": "Kontrollera ID #",
+            "category": "Kategori",
+            "who": "Gäller för",
+            "who-mobile": "Giltig",
+            "age": "Ålder",
+            "charged": "Betalat",
+            "diagnosed": "Bedömt"
+        }
+    },
+    "password": {
+        "placeholder": "Ditt personliga lösenord",
+        "reset": {
+            "action": "Glömt lösenordet?",
+            "new": "Ditt nya lösenord",
+            "label": "Om du vill återställa ditt lösenord anger du ditt registrerade telefonnummer.",
+            "back": "Tillbaka"
+        }
+    },
+    "questions": {
+        "common": {
+            "options": {
+                "yes": "Ja",
+                "no": "Nej"
+            }
+        },
+        "title":{
+            "patient_details": "Personlig information",
+            "medical_issue": "Berätta för oss om ditt tillstånd",
+            "about_you": "Om dig",
+            "take_photo": "Ta en bild av din hud",
+            "auth": "Identifiering",
+            "verify": "Bekräftelse",
+            "payment": "Betaling",
+            "video_booking": "Välj tid"
+        },
+        "video": {
+            "question": ""
+        },
+        "who": {
+            "question": "För vem gäller ditt ärende?",
+            "options": {
+                "me": "Mig",
+                "other": "Mitt barn under 18 år"
+            },
+            "hints": {
+                "other": "Genom att ange denna information bekräftar du att du är den minderåriges vårdnadshavare och har rätt att lämna in och ta emot hälsoinformation på deras vägnar."
+            }
+        },
+        "age": {
+            "question": {
+                "me": "När är du född?",
+                "other": "Hur gammal är den minderåriga som du har ansvar för?"
+            },
+            "error": {
+                "minor_age_limit": "Åldern bör vara i intervallet 0 till 16",
+                "major_age_limit": "Åldern bör vara i intervallet 17 till 120",
+                "incorrect_format": "Felaktigt datum angett. Se till att det är det DD-MM-YYYY"
+            },
+            "append": {
+                "year": "år|år|år"
+            }
+        },
+        "gender": {
+            "question": {
+                "me": {
+                    "minor": "Är du flicka eller pojke?",
+                    "adult": "Är du kvinna eller man?"
+                },
+                "other": {
+                    "minor": "Är personen en flicka eller pojke?",
+                    "adult": "Är personen en kvinna eller man?"
+                }
+            },
+            "options": {
+                "woman": {
+                    "minor": "Flicka",
+                    "adult": "Kvinna"
+                },
+                "man": {
+                    "minor": "Pojke",
+                    "adult": "Man"
+                },
+                "prefer_not": {
+                    "minor": "Önskar inte att svara",
+                    "adult": "Önskar inte att svara"
+                }
+            }
+        },
+        "child_ssn": {
+            "question": "Skriv ditt barns personnummer.",
+            "placeholder": "Personnummer",
+            "error": "Ogiltig personnummer"
+        },
+        "pregnant": {
+            "question": {
+                "me": "Är du gravid?",
+                "other": "Är hon gravid?"
+            },
+            "options": {
+                "yes": "Ja",
+                "no": "Nej"
+            }
+        },
+        "breastfeeding": {
+            "question": {
+                "me": "Ammar du?",
+                "other": "Ammar hon?"
+            },
+            "options": {
+                "yes": "Ja",
+                "no": "Nej"
+            }
+        },
+        "duration": {
+            "question": "Hur länge har du haft hudförändringarna?",
+            "week": "Ungefär 1 vecka",
+            "6_week": "Ungefär 6 veckor",
+            "more_6_week": "Mer än 6 veckor",
+            "year": "Mer än 1 år"
+        },
+        "body_part": {
+            "question": "Var på kroppen har du hudförändringar?",
+            "scalp": "Hårbotten",
+            "face": "Ansiktet och vid halsen",
+            "chest": "Överkropp",
+            "arms": "Armar",
+            "legs": "Ben",
+            "others": "Andra områden",
+            "placeholder": "Ange kroppsdel(ar) med hudförändringen."
+        },
+        "description": {
+            "question": "Berätta för oss om tillståndet",
+            "itch": "Klåda",
+            "burn": "Sveda",
+            "bleed": "Blödning",
+            "none": "Inga besvär",
+            "others": "Andra besvär",
+            "placeholder": "Beskriv tillståndet här"
+        },
+        "medication": {
+            "question": "Använder du läkemedel eller medicin regelbundet?",
+            "options": {
+                "yes": "Ja",
+                "no": "Nei"
+            }
+        },
+        "medication_description": {
+            "question": "Ange namnet eller beskriv de läkemedel/mediciner du använder ",
+            "placeholder": "Skriv här."
+        },
+        "allergy": {
+            "question": "Har du några kända allergier mot läkemedel?",
+            "options": {
+                "yes": "Ja",
+                "no": "Nei"
+            }
+        },
+        "allergy_description": {
+            "question": "Vilken/vilka medicin(er) har gett dig en allergisk reaktion och vilken reaktion fick du?",
+            "placeholder": "Skriv här."
+        },
+        "category": {
+            "question": {
+                "me": "Vad vill du undersöka?",
+                "other": "Vad vill du undersöka?"
+            },
+            "options": {
+                "mole": "Födelsemärke",
+                "skin_cancer": "Hudcancer",
+                "rash": "Utslag",
+                "video": "Videokonsultation",
+                "picture": "Bild"
+            }
+        },
+        "image": {
+            "or": "eller",
+            "take": "ta bild",
+            "use": "Använd denna",
+            "error": "Fel vid uppladdning av bild.\nVänligen försök igen.",
+            "retake": "Ladda upp igen"
+        },
+        "imagecloseup": {
+            "question": "Vi behöver en närbild",
+            "description": "ca. 10 cm avstånd.",
+            "button": "Ladda upp"
+        },
+        "imageoverview": {
+            "question": "Vi behöver en översiktsbild",
+            "description": "ca. 30 cm avstånd",
+            "button": "Ladda upp"
+        },
+        "login": {
+            "bankid": "Vi använder BankID för legitimering. Klicka nedan för att logga in.",
+            "phone": "För att du ska få besked om svar och kunna logga in för att kolla svaret, så behöver vi ditt telefonnummer.",
+            "password": "Du måste skapa konto eller skriva in existerande lösenord för att kunna skicka in och kolla svaret senare.",
+            "key": "Vänligen skriv in engångskoden vi skickade på SMS",
+            "email": "Ange din email",
+            "error": "Telefonnr och/eller lösenordet är fel. Vänligen försök igen!",
+            "placeholder": {
+                "phone": "Ditt telefonnr.",
+                "password": "Ditt personliga lösenord",
+                "otp": "Din engångskod",
+                "email": "Din email"
+            },
+            "cta": {
+                "otp": "Skicka engångskod",
+                "login": "Logga in"
+            }
+        },
+        "partner": {
+            "phone": {
+                "verify": "Är detta ditt telefonnummer?",
+                "change": "Ändra",
+                "confirm": "Bekräfta"
+            },
+            "otp": {
+                "verify": "Vänligen skriv in den kod du fick via SMS",
+                "notwork": "Fungerar det inte?",
+                "confirm": "Bekräfta"
+            },
+            "video": {
+                "description": "Beskriv vad ärendet gäller"
+            }
+        },
+        "key": {
+            "error": "Något gick fel. Kontakta supportteamet.",
+            "otp_error": "Engångskoden stämmer inte. Vänligen försök igen!",
+            "email_sent": "Klicka på den säkra länken i e-postmeddelandet vi just skickade till din registrerade e-postadress för att slutföra återställningen av lösenord.",
+            "email_absent": "Ingen registrerad e-post hittades. Kontakta snapmed supportteam för återställning av lösenord."
+        },
+        "payment": {
+            "info": {
+                "question": "Vänligen skriv in din betalinformation för att slutföra beställningen."
+            },
+            "time": {
+                "question": "Bekräfta din beställning",
+                "12": {
+                    "title": "12 timmar",
+                    "price": "495,-"
+                },
+                "24": {
+                    "title": "24 timmar",
+                    "price": "395,-"
+                }
+            }
+        }
+    },
+    "errors": {
+        "card_declined": {
+            "approve_with_id": "Betalningen kan inte godkännas.",
+            "call_issuer": "Kortet har avvisats av okänd anledning. Vänligen försök igen med ett annat kort.",
+            "card_not_supported": "Kortet stödjer inte denna sorts köp. Vänligen försök igen med ett annat kort.",
+            "card_velocity_exceeded": "Kortet har överskridit det tillgängliga saldot eller kreditgränsen. Vänligen försök igen med ett annat kort.",
+            "currency_not_supported": "Kortet stöttar inte den angivna valutan. Vänligen försök igen med ett annat kort.",
+            "do_not_honor": "Kortet har avvisats av okänd anledning. Vänligen försök igen med ett annat kort.",
+            "do_not_try_again": "Kortet har avvisats av okänd anledning. Vänligen försök igen med ett annat kort.",
+            "duplicate_transaction": "En transaktion med samma belopp och kreditkortsinformation skickades nyligen.",
+            "expired_card": "Kortet är utgånget. Vänligen försök igen med ett annat kort.",
+            "fraudulent": "Betalningen har avvisats eftersom vår betalningsleverantör misstänkter kortbedrägeri.",
+            "generic_decline": "Kortet har avvisats av okänd anledning. Vänligen försök igen med ett annat kort.",
+            "incorrect_number": "Kortnumret är felaktigt.",
+            "incorrect_cvc": "CVC-nummeret är fel.",
+            "incorrect_pin": "PIN-koden som har uppgetts är felaktig. Denna tillbakakod gäller endast för betalningar som genomförts med kortläsare.",
+            "incorrect_zip": "Postnumret är felaktigt.",
+            "insufficient_funds": "Kortet har inte tillräckligt med pengar för att slutföra beställningen. Vänligen försök igen med ett annat kort.",
+            "invalid_account": "Kortet, eller kontot kortet är kopplat till, är ogiltigt. Vänligen försök igen med ett annat kort.",
+            "invalid_amount": "Betalbeloppet är ogiltigt eller överskrider tillåtet belopp.",
+            "invalid_cvc": "CVC-numret är fel.",
+            "invalid_expiry_year": "Ogiltigt utgångsår.",
+            "invalid_number": "Felaktigt kortnummer.",
+            "invalid_pin": "Den PIN-kod som angivits är fel. Denna tillbakakod gäller endast för betalningar som genomförts med kortläsare.",
+            "issuer_not_available": "Kortutställaren kunde inte nås, därför kunde betalningen inte godkännas.",
+            "lost_card": "Betalningen har avvisats eftersom kortet har rapporterats som förlorat. Vänligen försök igen med ett annat kort",
+            "merchant_blacklist": "Betalningen har avvisats.",
+            "new_account_information_available": "Kortet, eller kontot kortet är kopplat till, är ogiltigt. Vänligen försök igen med ett annat kort",
+            "no_action_taken": "Kortet har avvisats av okänd anledning. Vänligen försök igen med ett annat kort",
+            "not_permitted": "Betalningen är inte tillåten.",
+            "pickup_card": "Kortet kan inte användas för att utföra denna betalning. Vänligen försök igen med ett annat kort",
+            "pin_try_exceeded": "Det tillåtna antalet PIN-försök har överskridits.",
+            "processing_error": "Det uppstod ett fel när kortet behandlades. Vänligen försök igen med ett annat kort",
+            "reenter_transaction": "Betalningen kunde inte behandlas av utfärdaren av okänd anledning.",
+            "restricted_card": "Kortet kan inte användas för att utföra denna betalning. Vänligen försök igen med ett annat kort",
+            "revocation_of_all_authorizations": "Kortet har avvisats av okänd anledning. Vänligen försök igen med ett annat kort",
+            "revocation_of_authorization": "Kortet har avvisats av okänd anledning. Vänligen försök igen med ett annat kort",
+            "security_violation": "Kortet har avvisats av okänd anledning. Vänligen försök igen med ett annat kort",
+            "service_not_allowed": "Kortet har avvisats av okänd anledning. Vänligen försök igen med ett annat kort",
+            "stolen_card": "Betalningen har avvisats eftersom kortet har rapporterats som stulet. Vänligen försök igen med ett annat kort",
+            "stop_payment_order": "Kortet har avvisats av okänd anledning. Vänligen försök igen med ett annat kort",
+            "testmode_decline": "Ett testkortsnummer har använts.",
+            "live_mode_test_card": "Ett testkortsnummer har använt.",
+            "transaction_not_allowed": "Kortet har avvisats av okänd anledning. Vänligen försök igen med ett annat kort",
+            "try_again_later": "Kortet har avvisats av okänd anledning. Vänligen försök igen med ett annat kort",
+            "withdrawal_count_limit_exceeded": "Kortet har överskridit det tillgängliga saldot eller kreditgränsen. Vänligen försök igen med ett annat kort",
+            "unknown": "Transaktionen genomfördes inte. Vänligen försök igen."
+        }
+    },
+    "promocode": {
+        "main_text": "Har du en rabattkod?",
+        "enter_code_text": "Din rabattkod",
+        "not_exists": "Ogiltig kampanjkod!",
+        "already_used": "Kampanjkoden har redan använts!",
+        "expired": "Kampanjkoden är utgången!",
+        "applied": "Promo använd:",
+        "not_applicable": "Kampanjkoden är inte aktuell!"
+    },
+    "header": {
+        "picture_consultation": "Bildkonsultation",
+        "back": "Tillbaka",
+        "home": "Hem"
+    },
+    "footer": {
+        "text": "Alla betalningar behandlas säkert"
+    }
+}

@@ -1,0 +1,76 @@
+@import './chartist-settings';
+// @import "../../node_modules/chartist/dist/scss/chartist.scss";
+@import '~chartist/dist/scss/chartist';
+
+.snapmed.application {
+    font-size: 16px;
+    font-family: $body-font-family;
+    &.theme--light {
+        // background: color(light-grey-blue, 0.25);
+        color: color(violet-blue);
+    }
+    .v-toolbar__content {
+        .v-toolbar__title a {
+            display: flex;
+            margin-top: 4px;
+        }
+    }
+    .v-card {
+        border-radius: 4px;
+    }
+    .v-card__title.v-card__title--primary.primary {
+        color: color(white);
+    }
+    .v-btn {
+        height: 45px;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: none !important;
+    }
+    .input-group.input-group--multi-line {
+        .input-group__prepend-icon {
+            align-self: flex-start;
+        }
+    }
+    .fade-enter-active,
+    .fade-leave-active {
+        transition-property: opacity;
+        transition-duration: 0.25s;
+    }
+
+    .fade-enter-active {
+        transition-delay: 0.25s;
+    }
+
+    .fade-enter,
+    .fade-leave-active {
+        opacity: 0;
+    }
+}
+
+.skin-button {
+    display: block;
+    border-radius: 100%;
+    min-height: 52px;
+    max-height: 52px;
+    min-width: 52px;
+    max-width: 52px;
+    position: relative;
+    margin-bottom: 14px;
+    margin-top: 3px;
+    &:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0.2;
+        background-image: url('~@/assets/test.jpeg');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+        overflow: hidden;
+        border-radius: 100%;
+    }
+}

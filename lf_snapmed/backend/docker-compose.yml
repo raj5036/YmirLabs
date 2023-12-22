@@ -1,0 +1,40 @@
+version: '3'
+services:
+    php:
+        build:
+            context: ./
+            dockerfile: ./docker/php/Dockerfile
+        container_name: snapmed_php
+        restart: always
+        tty: true
+        volumes:
+            - ./:/snapmed_backend
+        depends_on: 
+            - mysql
+        expose:
+            - "9080"
+
+    nginx:
+        restart: always
+        container_name: snapmed_nginx
+        build:
+            context: ./docker/nginx/
+            dockerfile: Dockerfile
+        links:
+            - php
+        ports:
+            - "9080:80"
+    
+    mysql:
+        build: ./docker/mysql
+        container_name: snapmed_mysql
+        restart: always
+        tty: true
+        ports:
+            - "3306:3306"
+    
+
+volumes:
+    dbdata:
+
+    

@@ -1,0 +1,17 @@
+{
+    "title": {
+        "urgent": "Urgent cases",
+        "total": "Total cases",
+        "assignments": "Assignments",
+        "clients": "Clients",
+        "profile": "Profile"
+    },
+    "action": {
+        "profile": "View profile",
+        "logout": "Logout"
+    },
+    "assignment": {
+        "category": "Category",
+        "deadline": "Deadline"
+    }
+}

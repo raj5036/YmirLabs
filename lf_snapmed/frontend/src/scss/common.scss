@@ -1,0 +1,967 @@
+#progress-bar-line {
+    width: 100%;
+    #line-progress {
+        width: 100% !important;
+    }
+}
+
+#line-progress {
+    border-radius: 16px;
+}
+
+.question-short-text {
+    width: 100%;
+    .question-short-text__area,
+    .question-short-text__area:focus {
+        // Text area
+        max-width: 100%;
+        width: 55%;
+        border: none;
+        padding: 15px;
+        border-radius: 10px;
+        resize: none;
+        background: color(very-light-pink);
+        color: color(blueberry);
+        border: 1px solid color(light-mauve);
+        font-size: $font-medium;
+        height: 50px;
+        outline: none;
+        @include breakpoint(small only) {
+            width: 95%;
+        }
+    }
+    &__next {
+        // Next btn
+        @include fadeInOut(true);
+        @include chat-btn;
+        align-self: flex-end;
+    }
+}
+
+.phone-number {
+    // Phone number
+    display: flex;
+    flex-direction: row;
+    & .phone-number__location {
+        // Left aligned current language
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 30px;
+        cursor: pointer;
+        position: relative;
+        &-flag {
+            // Country flag
+            width: 20px;
+            display: flex;
+            margin-right: 4px;
+        }
+        &-select {
+            // Select list with countries
+            opacity: 0;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            cursor: pointer;
+        }
+    }
+    & .phone-number__input {
+        // Input field
+        outline: none;
+        border: none;
+        width: 100%;
+        color: color(blueberry);
+        background: transparent;
+    }
+    & .phone-number__code {
+        // Input field for country code
+        width: 14%;
+        outline: none;
+        border: none;
+        text-align: center;
+        color: color(blueberry);
+        background: transparent;
+    }
+    & .phone-number__code-disabled {
+        // Input field for country code
+       display: none;
+    }
+    ::placeholder {
+        // Placeholder
+        color: color(blueberry);
+        opacity: 0.5;
+    }
+}
+
+.question-partner-phone-verify{
+    .question-login-phone__input {
+        // Chat input
+        @include chat-input();
+        padding: 12px 32px;
+        // width: 15rem;
+    }
+}
+
+.question-login-phone {
+    display: flex;
+    flex-direction: column;
+    @include breakpoint(small only) {
+        width: 100%;
+    }
+    .question-login-phone__input {
+        @include dd-input;
+        & input {
+            color: $dd-text-colour;
+        }
+    }
+    .question-login-phone__button {
+        @include fadeInOut(true);
+        @include dd-button;
+        align-self: flex-end;
+        margin-top: 64px;
+    }
+}
+
+.question-login-password {
+    display: flex;
+    flex-direction: column;
+    // width: 40%;
+    @include breakpoint(small only) {
+        // width: 95%;
+    }
+    & .question-login-password__input {
+        // Chat input
+        @include chat-input();
+        color: #5e4098;
+        width: 14rem;
+        align-self: flex-end;
+    }
+    & .question-login-password__button {
+        // Next btn
+        align-self: flex-end;
+        @include fadeInOut(true);
+        @include chat-btn;
+    }
+}
+.question-dob-dropdown {
+    background: #fdf1f1 !important;
+    border-radius: 10px !important;
+    width: 55%;
+    @include breakpoint(small only) {
+        width: 95%;
+    }
+}
+
+.flow-header {
+    width: 60%;
+    @include breakpoint(medium only) {
+        width: 80%;
+    }
+    @include breakpoint(small only) {
+        width: 100%;
+    }
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15%;
+    @include breakpoint(medium only) {
+        column-gap: 10%;
+    }
+    padding-inline: 10px;
+    align-items: center;
+    margin: 64px auto;
+    .button-back {
+        @include breakpoint(small only) {
+            width: 22px;
+            span {
+                display: none;
+            }
+        }
+        @include icon-before(url("~@/assets/dd/dd-back.svg"));
+    }
+    .button-close {
+        @include breakpoint(small only) {
+            width: 22px;
+            span {
+                display: none;
+            }
+        }
+        @include icon-before(url("~@/assets/dd/dd-cancel.svg"));
+    }
+    margin-top: 0px;
+    @include breakpoint(small only) {
+        column-gap: 10px;
+        margin: 52px auto;
+        margin-top: 24px;
+    }
+}
+
+.page-checkup {
+    // Checkup chat page layut
+    @include grid-width-limit-padding-no;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+    &__button-text {
+        color: #fff;
+        cursor: pointer;
+    }
+    &__hide-button {
+        visibility: hidden;
+    }
+    &--finished {
+        width: 100%;
+        padding: 0px;
+    }
+    &__continue {
+        @include dd-button;
+        text-align: center;
+        margin: 43px auto 20px;
+        width: 40%;
+        @include breakpoint(small only) {
+            width: 80%;
+        }
+    }
+    &__processing {
+        text-align: center;
+    }
+    &__heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        span {
+            color: color(white);
+            font-size: 40px;
+            text-align: center;
+            // margin: 80px 0px 64px;
+            @include breakpoint(small only) {
+                font-size: $font-large;
+            }
+        }
+    }
+    &__sub-heading {
+        color: color(default-text);
+        font-size: $font-medium;
+        font-weight: normal;
+        text-align: left;
+        @include breakpoint(small only) {
+            font-size: $font-medium;
+        }
+    }
+    &__sub-text {
+        color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: $font-medium;
+        text-align: center;
+    }
+}
+
+.hide-chat-question {
+    display: none;
+}
+
+.chat-question {
+    @include fadeInOut(true);
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 100%;
+    color: $dd-text-colour-light;
+    transition: opacity 0.3s ease-in-out;
+    &__answer-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include breakpoint(small only) {
+            padding-inline: 16px;
+        }
+    }
+}
+
+.question-ask {
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 32px auto 24px;
+    font-size: $font-medium-large;
+    color: $dd-text-colour-light;
+    font-weight: 400 !important;
+    line-height: 32px;
+    @include breakpoint(small only) {
+        padding: 8px 16px;
+        font-size: 20px;
+    }
+}
+
+.otp-error {
+    margin-top: 8px;
+    text-align: right;
+}
+
+.question-login-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // width: 30%;
+    @include breakpoint(small only) {
+        width: 95%;
+    }
+    & .question-login-email__input {
+        // Chat input
+        @include dd-input;
+    }
+    & .question-login-email__button {
+        // Next btn
+        margin-top: 64px;
+        @include fadeInOut(true);
+        @include dd-button;
+    }
+}
+.loader-image svg {
+    width: 60px;
+    margin: 0;
+}
+
+.question-login-email-uk {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    @include breakpoint(small only) {
+        width: 100%;
+    }
+    & .question-login-email__input {
+        // Chat input
+        @include uk-input;
+    }
+    & .question-login-email__button {
+        // Next btn
+        @include uk-button;
+    }
+}
+.loader-image svg {
+    width: 60px;
+    margin: 0;
+}
+
+.question-login-password {
+    display: flex;
+    flex-direction: column;
+    // width: 30%;
+    & .question-login-password__input {
+        // Chat input
+        @include chat-input();
+    }
+    & .question-login-password__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    & .question-login-password__forgot-password {
+        margin-top: 8px;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    & .question-login-password__button {
+        // Next btn
+        @include fadeInOut(true);
+        @include chat-btn;
+        align-self: flex-end;
+        margin-top: spacing();
+    }
+    & .question-login-password__error-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    & .question-login-password__error {
+        color: $dd-text-colour-light;
+        font-size: $font-medium;
+        text-align: left;
+    }
+    & .question-login-password__icon {
+        width: 15px;
+        margin-right: 10px;
+    }
+    & .question-login-password__message {
+        margin-top: 20px;
+        width: 250px;
+        @include breakpoint(small only) {
+            width: 215px;
+        }
+    }
+    & .timer-div {
+        display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
+        justify-content: flex-end;
+    }
+    & .timer-text {
+        display: flex;
+        column-gap: 3px;
+    }
+}
+
+.question-login-password-uk {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    & span {
+        line-height: 1;
+    }
+    width: 100%;
+    & .question-login-password__input {
+        // Chat input
+        @include uk-input;
+    }
+    & .question-login-password__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    & .question-login-password__forgot-password {
+        margin-top: 8px;
+        text-decoration: underline;
+        cursor: pointer;
+        color: #22252a;
+    }
+    & .question-login-password__button {
+        // Next btn
+        @include fadeInOut(true);
+        // @include chat-btn;
+        @include uk-button;
+    }
+    & .question-login-password__error-container {
+        display: flex;
+        justify-content: center;
+        align-self: flex-start;
+        margin-block: 10px;
+    }
+    & .question-login-password__error {
+        color: #d63e39;
+        font-size: $font-medium;
+        text-align: left;
+    }
+    & .question-login-password__icon {
+        width: 15px;
+        margin-right: 10px;
+    }
+    & .question-login-password__message {
+        margin-top: 20px;
+        width: 250px;
+        @include breakpoint(small only) {
+            width: 215px;
+        }
+    }
+    & .timer-div {
+        & span {
+            color: $green;
+            font-size: 0.9rem;
+        }
+        display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
+        justify-content: flex-start;
+    }
+    & .timer-text {
+        display: flex;
+        column-gap: 3px;
+    }
+
+    .otp-input {
+        width: 44px;
+        height: 44px;
+        padding: 5px;
+        font-size: $font-small-medium !important;
+        border-radius: 4px;
+        margin-right: 10px;
+        border: 1px solid $uk-border-color;
+        color: $uk-text-color;
+        &:focus {
+            border: 1px solid $uk-border-highlight;
+        }
+        text-align: center;
+        outline: none;
+        & .error {
+            border: 1px solid red !important;
+        }
+    }
+    .otp-input::-webkit-inner-spin-button,
+    .otp-input::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
+
+.question-login-password-no {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    & span {
+        line-height: 1;
+    }
+    & .question-login-password__input {
+        // Chat input
+        @include dd-input;
+    }
+    & .question-login-password__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    & .question-login-password__forgot-password {
+        margin-top: 8px;
+        text-decoration: underline;
+        cursor: pointer;
+        color: #22252a;
+    }
+    & .question-login-password__button {
+        // Next btn
+        @include fadeInOut(true);
+        @include dd-button;
+        margin-top: 64px;
+    }
+    & .question-login-password__error-container {
+        display: flex;
+        justify-content: center;
+        align-self: flex-start;
+        margin-block: 10px;
+    }
+    & .question-login-password__error {
+        color: $dd-text-colour-light;
+        font-size: $font-medium;
+        text-align: left;
+    }
+    & .question-login-password__icon {
+        width: 15px;
+        margin-right: 10px;
+    }
+    & .question-login-password__message {
+        margin-top: 20px;
+        width: 250px;
+        @include breakpoint(small only) {
+            width: 215px;
+        }
+    }
+    & .timer-div {
+        & span {
+            color: white;
+            font-size: 0.9rem;
+        }
+        display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
+        justify-content: flex-start;
+    }
+    & .timer-text {
+        display: flex;
+        column-gap: 3px;
+    }
+
+    .otp-input {
+        @include dd-input;
+        width: 56px !important;
+        margin-inline-end: 10px;
+        text-align: center;
+        & .error {
+            border: 1px solid red !important;
+        }
+    }
+    .otp-input::-webkit-inner-spin-button,
+    .otp-input::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
+
+.question-large-text__error {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin-top: 5px;
+    color: $dd-text-colour-light;
+}
+.bug-report{
+    .overlay{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .modal{
+            z-index: 1000;
+            position: relative;
+            width: 60%;
+            padding: 40px 20px;
+            background: #E1F3F3;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            .cross-button{
+                position: absolute;
+                right: 10px;
+                top: 6px;
+            }
+            .label-input{
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                input{
+                    border: solid 1px black;
+                    padding: 10px 20px;
+                }
+            }
+        }
+    }
+}
+
+.question-text {
+    @include breakpoint(small only) {
+        width: 100%;
+    }
+    textarea {
+        @include dd-input;
+    }
+}
+
+.question-large-text {
+    display: flex;
+    flex-direction: column;
+    @include breakpoint(small only) {
+        width: 100%;
+    }
+    .question-large-text__area {
+        // Text area
+        @include dd-input;
+        height: 150px;
+        @include breakpoint(small only) {
+            height: 100px;
+        }
+    }
+    .question-large-text__next {
+        // Next btn
+        @include fadeInOut(true);
+        @include chat-btn;
+        align-self: flex-end;
+    }
+    .question-large-text__error {
+        margin-top: 10px;
+        margin-right: auto;
+        color: $dd-text-colour-light;
+    }
+}
+
+.question-child-ssn {
+    display: flex;
+    flex-direction: column;
+    @include breakpoint(small only) {
+        width: 100%;
+    }
+    &__area {
+        @include dd-input;
+    }
+}
+
+.dd-input-large-text{
+    @include dd-input-large-text;
+}
+
+.dd-input{
+    @include dd-input;
+}
+
+.dd-button {
+    @include dd-button;
+}
+
+.proceed-button {
+    max-width: 360px !important;
+    margin: auto;
+    margin-top: 64px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    .modal {
+        @include fadeInOut(1s);
+
+        display: flex;
+        flex-direction: column;
+        width: 60vw;
+        padding: 60px 150px;
+        @include breakpoint(medium only) {
+            width: 80vw;
+            padding: 60px 120px;
+        }
+        @include breakpoint(small only) {
+            width: 95vw;
+            padding: 40px 20px;
+        }
+        background: $dd-form-option-bg;
+        color: $dd-text-colour;
+        font-family: "Graphik Web";
+        border-radius: 16px;
+
+        .skip {
+            text-decoration: underline;
+            text-align: right;
+            margin: 30px 40px;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 48px;
+        }
+        .description {
+            font-style: normal;
+            font-weight: 400;
+            font-size: $font-medium-large;
+            text-align: center;
+        }
+        .options {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            @include breakpoint(medium only) {
+                flex-wrap: wrap;
+            }
+            @include breakpoint(small only) {
+                flex-wrap: wrap;
+            }
+            .dd-button {
+                width: 268px;
+            }
+        }
+        textarea {
+            @include dd-input;
+            height: 200px;
+            width: 100%;
+        }
+    }
+}
+
+.page-video {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    @include grid-width-limit-padding;
+    color: $dd-text-colour-light;
+    background-color: $dd-bg;
+    .proceed-button {
+        width: 346px;
+    }
+    &__header {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid color(medium-grey);
+        &-steps-heading {
+            white-space: nowrap;
+            @include breakpoint(small only) {
+                font-size: 100%;
+            }
+        }
+    }
+    &__steps {
+        position: relative;
+        min-height: 240px;
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    &__actions {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 100px;
+    }
+    .slide-left-enter-active,
+    .slide-left-leave-active,
+    .slide-right-enter-active,
+    .slide-right-leave-active {
+        transition: all 500ms ease-in-out;
+    }
+    .slide-left-enter,
+    .slide-left-leave-to,
+    .slide-right-enter,
+    .slide-right-leave-to {
+        opacity: 0;
+    }
+    .slide-left-enter {
+        transform: translateX(100%);
+    }
+    .slide-left-leave-to {
+        position: absolute;
+        left: 0;
+        right: 0;
+        transform: translateX(-100%);
+    }
+    .slide-right-enter {
+        transform: translateX(-100%);
+    }
+    .slide-right-leave-to {
+        position: absolute;
+        left: 0;
+        right: 0;
+        transform: translateX(100%);
+    }
+}
+
+.page-video {
+    $block: &;
+    .select-appointment__header {
+        border: none;
+        a,
+        div {
+            color: $dd-text-colour-light;
+        }
+    }
+    .page-video__header {
+        border: none;
+    }
+    .select-appointment__day {
+        border: none;
+    }
+    .select-appointment__day-date {
+        color: $dd-text-colour;
+        background-color: white;
+        width: 100px;
+        align-self: center;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .select-appointment__day-of-week {
+        background: transparent;
+        border: none;
+    }
+    &__content--book {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        #{$block}__actions {
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            height: auto;
+            z-index: 3;
+            border-top: solid 1px color(subtle-purple);
+            background-color: color(white, 0.96);
+            padding: spacing(2) spacing(1);
+            justify-content: flex-end;
+            transform: translateY(100%) translateZ(0);
+            transition: transform 0.25s ease;
+            &--show {
+                transform: translateY(0) translateZ(0);
+            }
+            .actions--next {
+                @include fadeInOut(true);
+                @include chat-btn;
+                align-self: flex-end;
+                margin-top: spacing();
+                color: color(white);
+                background: color(blueberry);
+                border: 0;
+                height: 45px;
+                &[disabled] {
+                    opacity: 0.5;
+                    cursor: not-allowed;
+                }
+            }
+        }
+    }
+}
+
+.date-show {
+    color: white;
+    padding: 4px 24px;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 414px;
+    @include breakpoint(small only){
+        width: calc(100vw - 16px * 2);
+    }
+    margin: 0px auto 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 16px;
+    .edit-button {
+        color: white;
+        text-decoration: underline;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        width: min-content;
+    }
+}
+
+
+.loader-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .stroke-primary {
+    // stroke: $dd-text-colour;
+    stroke: white;
+  }
+  .stroke-secondary{
+    stroke: #75d0c5;
+  }
+  .spinner-path {
+    stroke-dashoffset: 0%;
+    stroke-dasharray: 100%;
+    stroke-width: 12px;
+    animation: logoLoader 3s ease-in-out infinite;
+    transform-origin: center;
+  }
+  
+  @keyframes logoLoader {
+    0% {
+      stroke-dashoffset: 0%;
+    }
+    50% {
+      stroke-dashoffset: 100%;
+    }
+    100% {
+      stroke-dashoffset: 200%;
+    }
+  }
+  

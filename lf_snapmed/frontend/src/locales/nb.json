@@ -1,0 +1,631 @@
+{
+    "storebrand": {
+        "login": {
+            "heading": "Tjenestevilkår",
+            "info-header": "Bli Frisk deler følgende informasjon med Dr. Dropin Hud:",
+            "info-text": "For at hudlegene skal gi deg rad og behandling deles: Navn, avtalenummer, personnummer og telefonnummer. Det overføres og lagres sikkert.",
+            "privacy-header": "Dr. Dropin Hud sine vilkår og personvern",
+            "privacy-text": "For å kunne tilby medisinsk rådgivning lager Dr. Dropin Hud personopplysninger og helseopplysninger om deg. Dette lagres sikkert og kan slettes når du ønsker det. Anonym informasjon om din bruk for statistikk og forbedring av tjenesten samles også inn.",
+            "fail-alert": "Login failed. Please navigate back and try again.",
+            "missing-info-alert": "Manglende informasjon. Snapmed kunne ikke logge deg inn på grunn av manglende informasjon sendt fra din Storebrand profil. Kontakt support.",
+            "timeout-string-alert": "Login kan ha timet ut. Vennligst prøv å lukke denne siden og naviger tilbake igjen for å forsøke på nytt. (feilkode: ",
+            "timeout-alert": "Login kan ha timet ut. Vennligst prøv å lukke denne siden og naviger tilbake igjen for å forsøke på nytt.",
+            "close": "Klikk X oppe i hjørnet for å lukke Snapmed.",
+            "terms": "Tjenestevilkår",
+            "privacy": "Personvernerklæring"
+        },
+        "select": {
+            "heading": "Hvordan kan vi hjelpe deg med ditt behov?",
+            "picture-header": "Send bilde til hudlege",
+            "picture-text": "Få medisinske råd tilbake innen 24 timer",
+            "video-header": "Hudlegetime på video",
+            "video-text": "Få medisinske råd, resepter eller henvisning.",
+            "info": "Våre hudleger jobber også ved hudavdelinger på norske sykehus og private klinikker."
+        },
+        "picture": {
+            "title": "Bildekonsultasjon",
+            "intro": "Svar på noen spersmål og legg ved to bilder av tilstanden din. Vi gjør en vurdering og gir deg svar innen 24 timer. Du får forslag til behandling eller videre henvisning ved behov.",
+            "list_1": "Garantert svar innen 24 timer",
+            "list_2": "Råd, resepter og henvisning",
+            "list_3": "Enkelt, sikkert og trygt",
+            "button": "Fortsett"
+        },
+        "video": {
+            "title": "Videokonsultasjon",
+            "intro": "Bestill time i kalenderen og få link til videosamtale på SMS for timen. Treff en av oss pâ video som ved et vanlig legebesøk. Du får rad, behandling og videre oppfølging ved behov.",
+            "list_1": "Når og hvor det passer deg",
+            "list_2": "Råd, resepter og henvinsing",
+            "list_3": "Enkelt, sikkert og trygt",
+            "button": "Fortsett"
+        },
+        "picture-confirm": {
+            "heading": "Saken din er innsendt",
+            "intro": "Du kontaktes via SMS så snart en hudlege har vurdert saken din.",
+            "aurora-button": "Tilbake til Aurora",
+            "blifrisk-button": "Tilbake til Bli Frisk"
+        },
+        "video-confirm": {
+            "heading": "Timen din er bekreftet",
+            "intro": "Du vil motta en SMS med lenke til videosamtalen en halvtime før avtalen.",
+            "aurora-button": "Tilbake til Aurora",
+            "blifrisk-button": "Tilbake til Bli Frisk"
+        }
+    },
+    "title": {
+        "404": "Fant ikke siden",
+        "home": "Snapmed",
+        "check": "Spør hudlege",
+        "response": "Sjekk mitt svar",
+        "video": "Bestill hudlegetime",
+        "reset_password": "Endre passord"
+    },
+    "lang": {
+        "switch": {
+            "label": "English",
+            "url": "https://snapmed.co"
+        }
+    },
+    "meta": {
+        "description": "Hudsjekk fra spesialist på 24 timer.",
+        "url": "https://snapmed.no",
+        "terms": "https://snapmed.no/vare-vilkar",
+        "check": "https://snapmed.no/check",
+        "offer": "Hudsjekk fra spesialist på {0} timer.",
+        "og": {
+            "image": "https://snapmed.no/snapmed_nb.png"
+        }
+    },
+    "btn": {
+        "check": "Sjekk mitt svar",
+        "check_response": "Bekreft engangskode",
+        "checkNow": "Spør hudlege",
+        "readMore": "Les mer her",
+        "next": "Neste",
+        "phone_text": "Neste",
+        "charge": "Send inn og betal",
+        "otp": "Få engangskode",
+        "confirm": "Bekreft",
+        "change": "Endre",
+        "close": "Avslutt",
+        "resend_otp": "Send engangskode på nytt",
+        "resend_otp_in": "Send engangskode på nytt om",
+        "go_back": "Tilbake"
+    },
+    "appointment": {
+        "header": {
+            "week": "Uke {0} - {1}",
+            "next": "Neste uke",
+            "prev": "Forrige uke"
+        }
+    },
+    "page": {
+        "close-modal":{
+            "few-step-away": "Du er snart ferdig med bestillingen, er du sikker på at du vil avslutte?",
+            "back-homepage": "Til hjemmesiden",
+            "complete-booking": "Fortsett bestillingen",
+            "your-feedback": "Vi prøver hele tiden å forbedre våre tjenester i Dr. Dropin. Tilbakemeldingen din kan hjelpe oss med dette.",
+            "how-improve": "Hvordan kan vi forbedre oss?",
+            "submit": "Sende inn",
+            "skip": "Hopp over"
+        },
+        "verification": {
+            "verified": "Din epost er godkjent",
+            "not_verified": "Lenken for verifisering er utløpt",
+            "login": "Logg inn",
+            "send_again": "Gå tilbake"
+        },
+        "login": {
+            "login_bankid_btn": "Logg inn med BankID",
+            "login_bankid_mobile_btn": "Logg inn med BankID for mobil",
+            "login_with_phone_instead": "Logg inn med telefonnummer i stedet?",
+            "no_bankid_user_found": "Fant ingen bruker koblet til denne bankID",
+            "no_bankid_try_again": "Prøv igjen"
+        },
+        "partnerlogin": {
+            "confirmbutton": "Bekreft og fortsett",
+            "title": "Send inn bilde til hudlege",
+            "continue": "Fortsett",
+            "submit": "Sende inn",
+            "newcase": "Legg inn en annen sak",
+            "casecode": "Din sakskode er: ",
+            "thankyou": "Skriv en henvisning til Snapmed med denne koden. Vi vil svare på saken innen 24 timer og komme tilbake til deg."
+        },
+        "check": {
+            "reset": "Start ny undersøkelse",
+            "continue": "Gå til login og betaling",
+            "title": "Hei og velkommen til Snapmed.",
+            "finish": "Takk for din bestilling.",
+            "subtitle": "Vi vil nå stille deg noen spørsmål for å kartlegge tilstanden din.",
+            "otp_error": "Engangskoden stemte ikke.",
+            "otp_retry": "Vennligst forsøk på nytt med ny engangskode!",
+            "phone_error": "Telefonnummeret stemmer ikke. Vennligst oppgi et mobil-telefon nummer som kan motta SMS.",
+            "email_error": "Eposten er ikke gyldig. Legg inn en epost som kan motta meldinger",
+            "email_already_exists": "Denne eposten eksisterer allerede i systemet",
+            "paymenttitle": "Fullfør bestilling",
+            "finishsubtitle": "En av våre hudleger vil se på saken din så snart de har tid. Du får beskjed på SMS når vurderingen er klar.",
+            "partnerContinue": "Neste",
+            "minor": "Ved å legge inn denne informasjonen bekrefter du at du er verge for den mindreårige og har rett til å sende inn og motta helseinformasjon på deres vegne.",
+            "apply": "Legg til",
+            "subtotal": "Delsum",
+            "enter_promocode": "Angi promokode",
+            "empty_error": "Dette feltet kan ikke være tomt",
+            "payment_processing": "Vennligst vent mens vi behandler betalingen din",
+            "payment":{
+                "total": "Delsum",
+                "code": "Kupong aktivert",
+                "price": "Bildekonsultasjon",
+                "card_details": "Kortdetaljer",
+                "expiry": "Utløpsdato",
+                "cvc": "CVC",
+                "Your card was declined.": "Kortet ditt ble avvist.",
+                "Your card's security code is incorrect.": "Kortets sikkerhetskode er feil."
+            }
+        },
+        "response": {
+            "email_not_verified": "Vennligst verifiser eposten ved å klikke på linken som har blitt sendt til din registrerte epost.",
+            "resend_email": "Send epost på nytt",
+            "login": {
+                "title": "Sjekk svaret ditt"
+            },
+            "logout": "Logg ut",
+            "password": {
+                "update": {
+                    "title": "Skriv inn ditt nye passord",
+                    "btn": "Bekrefte"
+                },
+                "anchor": "Bytt passord",
+                "title": "Endre ditt eksisterende passord",
+                "current": "Nåværende passord",
+                "new": "Nytt passord",
+                "confirm": "Bekrefte nytt passord",
+                "back": "Gå tilbake",
+                "continue": "Fortsett",
+                "empty_err": "Vennligst fyll ut detaljene ovenfor.",
+                "length_err": "Et nytt passord må være minst seks tegn langt.",
+                "confirm_err": "Nye og bekreft passord stemmer ikke overens.",
+                "match_err": "Ditt nåværende passord samsvarer ikke med passordet du oppga. Vær så snill, prøv på nytt.",
+                "same_err": "Et nytt passord kan ikke være det samme som ditt nåværende passord. Velg et annet passord.",
+                "success": "Passordet ble endret!",
+                "error": "Noe gikk galt. Kontakt supportteamet.",
+                "expire": "Virker som en ugyldig eller brukt lenke.",
+                "updated": "Passordet ditt har blitt tilbakestilt.<br>Klikk her for å <a href={0}>Logge inn</a>"
+            },
+            "result": {
+                "multiple": "Mine undersøkelser",
+                "selected": "Legens vurdering"
+            },
+            "diagnosed": {
+                "0": "Nei",
+                "1": "Ja"
+            },
+            "cta": {
+                "second_opinion": "Be om oppfølging",
+                "back": "Tilbake til oversikt"
+            },
+            "modal": {
+                "title": "Hvorfor trenger du en oppfølgingsvurdering?",
+                "grounds": "Begrunnelse",
+                "cta": {
+                    "cancel": "Avbryt",
+                    "download": "Nedlasting"
+                }
+            }
+        },
+        "results": {
+            "upload": "Vennligst last opp nye bilder:",
+            "update": "Oppdater undersøkelse",
+            "not_ready": "Din diagnose er ikke klar. Du vil motta SMS når din diagnose er klar.",
+            "description": "Din beskrivelse",
+            "duration": "Opplevd varighet:",
+            "imagecloseup": "Nærbilde",
+            "imageoverview": "Oversiktsbilde",
+            "imagecloseup_alt": "Nærbilde tatt av deg",
+            "imageoverview_alt": "Oversiktsbilde tatt av deg"
+        },
+        "video": {
+            "login": {
+                "short_title": "Bestilling"
+            },
+            "title": "Bestill hudlegetime",
+            "short_title": "Bestilling",
+            "book": {
+                "no_slots": "ingen tilgjengelig",
+                "loading": "Henter tilgjengelige timer",
+                "actions": {
+                    "next": "Neste steg"
+                }
+            },
+            "confirm-partner": {
+                "title": "Bekreft bestilling",
+                "short_title": "Bekreft bestilling",
+                "complete": "Takk for din bestilling!",
+                "change_date": "Endre tid"
+            },
+            "confirm": {
+                "title": "Bekreft bestilling",
+                "short_title": "Bekreft bestilling",
+                "complete": "Takk for din bestilling!",
+                "change_date": "Endre tid",
+                "header": "Hudlegetime (15 min)",
+                "sub_header": "Avtalen din er:",
+                "actions": {
+                    "back": "Tilbake",
+                    "next": "Bekreft time og betal"
+                },
+                "appointment": {
+                    "error": "Du har ikke lenger valgt en time. Kan du gå tilbake og velge en nye time?"
+                },
+                "name": {
+                    "label": "Navn",
+                    "placeholder": "Ditt fulle navn"
+                },
+                "email": {
+                    "label": "E-post",
+                    "placeholder": "Din e-postdresse"
+                },
+                "phonenumber": {
+                    "label": "Telefonnummer",
+                    "placeholder": "Ditt telefonnummer"
+                },
+                "description": {
+                    "label": "Beskrivelse",
+                    "placeholder": "Beskriv kort hva avtalen gjelder"
+                },
+                "payment": {
+                    "label": "Fyll inn betalingsinformasjon",
+                    "processing": "Din bestilling blir behandlet ..."
+                },
+                "terms": {
+                    "label": "Jeg har lest og godtar Snapmed sine {0}.",
+                    "terms": "brukervilkår"
+                }
+            },
+            "steps": "Steg {0} av {1}"
+        },
+        "thank-you": {
+            "picture":{
+                "thank-you": "Takk!",
+                "recieved-case" : "Vi har mottatt din henvendelse.",
+                "list-1": "Din henvendelse vil bli undersøkt av en av våre hudleger innen de neste 24 timene. ",
+                "list-2": "Så snart din henvendelse er behandlet vil du motta en påminnelse via SMS med instruksjoner om hvordan du sjekker ditt svar.",
+                "back-home": "Tilbake til hjemmesiden"
+            },
+            "video":{
+                "thank-you": "Takk!",
+                "recieved-case" : "Vi har mottat din bestilling.",
+                "list-1": "Vi har nå reservert tid hos en av våre hudleger til din konsultasjon.",
+                "list-2": "Du vil motta en SMS omtrent 30 minutter før avtalte konsultasjon med lenke til videorommet der du møter legen.",
+                "back-home": "Lukk siden"
+            }
+        }
+    },
+    "diagnosis": {
+        "category": {
+            "ok": "Tilsynelatende ufarlig​ tilstand som ikke trenger oppfølging med UNNTAK av om hudforandringen endrer seg. ",
+            "warn": "Mistenkelig hudforandring  som kan representere alvorlig hudsykdom. Må undersøkes nærmere​ hos lege eller spesialist.",
+            "check": "Mistanke om alvorlig hudsykdom. ​Oppsøk lege snarlig."
+        }
+    },
+    "examination": {
+        "table": {
+            "uid": "Sjekk #",
+            "charged": "Betalt",
+            "category": "Kategori",
+            "who": "Undersøkelse av",
+            "age": "Alder",
+            "diagnosed": "Vurdert"
+        },
+        "labels": {
+            "ref": "Sjekk ID #",
+            "category": "Kategori",
+            "who": "Gjelder for",
+            "who-mobile": "Gjelder",
+            "age": "Alder",
+            "charged": "Betalt",
+            "diagnosed": "Vurdert"
+        }
+    },
+    "password": {
+        "placeholder": "Ditt personlige passord",
+        "reset": {
+            "action": "Glemt passordet?",
+            "new": "Ditt nye passord",
+            "label": "For å tilbakestille passordet ditt, oppgir du det registrerte telefonnummeret.",
+            "back": "Tilbake"
+        }
+    },
+    "questions": {
+        "common": {
+            "options": {
+                "yes": "Ja",
+                "no": "Nei"
+            }
+        },
+        "title":{
+            "patient_details": "Personlig informasjon",
+            "medical_issue": "Fortell oss om din tilstand",
+            "about_you": "Om deg",
+            "take_photo": "Ta et bilde av din hud",
+            "auth": "Autentisering",
+            "verify": "Verifikasjon",
+            "payment": "Betaling",
+            "video_booking": "Velg tid"
+        },
+        "video": {
+            "question": ""
+        },
+        "who": {
+            "question": "Er vurderingen for deg selv eller en mindreårig?",
+            "options": {
+                "me": "Meg",
+                "other": "Mindreårig"
+            },
+            "hints": {
+                "other": "Ved å legge inn denne informasjonen bekrefter du at du er verge for den mindreårige og har rett til å sende inn og motta helseinformasjon på deres vegne."
+            }
+        },
+        "age": {
+            "question": {
+                "me": "Når er du født?",
+                "other": "Hvor gammel er den mindreårige du har ansvar for?"
+            },
+            "error": {
+                "minor_age_limit": "Alder bør være i området 0 til 16",
+                "major_age_limit": "Alder bør være i området 17 til 120",
+                "incorrect_format": "Feil dato angitt. Sørg for at det er det DD-MM-YYYY"
+            },
+            "append": {
+                "year": "år|år|år"
+            }
+        },
+        "gender": {
+            "question": {
+                "me": {
+                    "minor": "Er du jente eller gutt?",
+                    "adult": "Er du kvinne eller mann?"
+                },
+                "other": {
+                    "minor": "Er den mindreårige jente eller gutt?",
+                    "adult": "Er personen kvinne eller mann?"
+                }
+            },
+            "options": {
+                "woman": {
+                    "minor": "Jente",
+                    "adult": "Kvinne"
+                },
+                "man": {
+                    "minor": "Gutt",
+                    "adult": "Mann"
+                },
+                "prefer_not": {
+                    "minor": "Ønsker ikke å svare",
+                    "adult": "Ønsker ikke å svare"
+                }
+            }
+        },
+        "child_ssn": {
+            "question": "Skriv inn den mindreårige sitt personnummer",
+            "placeholder": "Personnummer",
+            "error": "Ugyldig personnummer"
+        },
+        "pregnant": {
+            "question": {
+                "me": "Er du gravid?",
+                "other": "Er hun gravid?"
+            },
+            "options": {
+                "yes": "Ja",
+                "no": "Nei"
+            }
+        },
+        "breastfeeding": {
+            "question": {
+                "me": "Ammer du?",
+                "other": "Ammer hun?"
+            },
+            "options": {
+                "yes": "Ja",
+                "no": "Nei"
+            }
+        },
+        "duration": {
+            "question": "Hvor lenge har du hatt hudforandringene?",
+            "week": "Omtrent 1 uke",
+            "6_week": "Omtrent 6 uker",
+            "more_6_week": "Mer enn 6 uker",
+            "year": "Mer enn 1 år"
+        },
+        "body_part": {
+            "question": "Hvor på kroppen har du hudforandringene?",
+            "scalp": "Hodebunn",
+            "face": "Ansiktet og halsområdet",
+            "chest": "Overkropp",
+            "arms": "Armer",
+            "legs": "Ben",
+            "others": "Andre områder",
+            "placeholder": "Angi kroppsdel(er) med hudforandringen."
+        },
+        "description": {
+            "question": "Hvilke plager gir hudforandringene dine deg?",
+            "itch": "Kløe",
+            "burn": "Svie",
+            "bleed": "Blødning",
+            "none": "Ingen plager",
+            "others": "Andre plager",
+            "placeholder": "Angi hvilke plager du erfarer"
+        },
+        "medication": {
+            "question": "Bruker du noen medisiner eller legemidler regelmessig?",
+            "options": {
+                "yes": "Ja",
+                "no": "Nei"
+            }
+        },
+        "medication_description": {
+            "question": "Skriv ned navnene på eller beskriv legemidlene du bruker.",
+            "placeholder": "Skriv her"
+        },
+        "allergy": {
+            "question": "Har du kjent allergi mot noen legemidler?",
+            "options": {
+                "yes": "Ja",
+                "no": "Nei"
+            }
+        },
+        "allergy_description": {
+            "question": "Hvilke(n) medisin(er) har du reagert allergisk på og hva slags reaksjon fikk du?",
+            "placeholder": "Skriv her"
+        },
+        "category": {
+            "question": {
+                "me": "Hva vil du undersøke?",
+                "other": "Hva vil du undersøke?"
+            },
+            "options": {
+                "mole": "Føflekk",
+                "skin_cancer": "Hudkreft",
+                "rash": "Utslett",
+                "video": "Videokonsultasjon",
+                "picture": "Bilde"
+            }
+        },
+        "image": {
+            "or": "eller",
+            "take": "ta bilde",
+            "use": "Bruk dette",
+            "error": "Feil ved opplasting av bilde.\nVennligst prøv igjen.",
+            "empty_error": "Legg til et bilde",
+            "retake": "Last opp på nytt"
+        },
+        "imagecloseup": {
+            "question": "Vi trenger et nærbilde",
+            "description": "ca. 10 cm fra huden.",
+            "button": "Last opp bilde"
+        },
+        "imageoverview": {
+            "question": "Vi trenger et oversiktsbilde",
+            "description": "ca. 30 cm fra huden.",
+            "button": "Last opp bilde"
+        },
+        "login": {
+            "bankid": "Vi bruker BankID til autentisering.",
+            "phone": "Telefonnummer",
+            "password": "Du må opprette eller skrive inn eksisterende passord for å kunne sende inn og sjekke svar senere.",
+            "key": "Vennligst skriv inn engangskoden vi sendte deg på SMS",
+            "error": "Telefonnr og/eller passordet er feil. Vennligst prøv igjen!",
+            "email": "Vennligst skriv inn eposten din",
+            "placeholder": {
+                "phone": "Ditt telefonnr.",
+                "password": "Ditt personlige passord",
+                "otp": "Din engangskode",
+                "email": "Din epost"
+            },
+            "cta": {
+                "otp": "Send engangskode",
+                "login": "Logg inn"
+            }
+        },
+        "partner": {
+            "phone": {
+                "verify": "Er dette telefonnummeret ditt?",
+                "change": "Endre",
+                "confirm": "Bekreft"
+            },
+            "otp": {
+                "verify": "Vennligst skriv inn koden du fikk på SMS",
+                "notwork": "Virker det ikke?",
+                "confirm": "Bekreft"
+            },
+            "video": {
+                "description": "Beskriv hva henvendelsen gjelder"
+            }
+        },
+        "key": {
+            "error": "Något gick fel. Kontakta supportteamet.",
+            "otp_error": "Engangskoden stemmer ikke. Vennligst prøv igjen!",
+            "email_sent": "For å fullføre tilbakestillingen av passord, vennligst klikk på den sikre lenken i e-postmeldingen vi nettopp sendte til din registrerte e-postadresse.",
+            "email_absent": "Ingen registrert e-post funnet. Kontakt snapmed supportteam for tilbakestilling av passord."
+        },
+        "payment": {
+            "info": {
+                "question": " "
+            },
+            "time": {
+                "question": "Hvor raskt ønsker du svar?",
+                "12": {
+                    "title": "12 timer",
+                    "price": "395,-"
+                },
+                "24": {
+                    "title": "24 timer",
+                    "price": "295,-"
+                }
+            }
+        }
+    },
+    "errors": {
+        "min-one-selected": "Velg minst ett av alternativene",
+        "card_declined": {
+            "approve_with_id": "Betalingen kan ikke godkjennes.",
+            "call_issuer": "Kortet har blitt avvist av en ukjent grunn. Vennligst prøv igjen med et annet kort.",
+            "card_not_supported": "Kortet støtter ikke denne typen kjøp. Vennligst prøv igjen med et annet kort.",
+            "card_velocity_exceeded": "Kortet er overskredet saldoen eller kredittgrensen som er tilgjengelig på kortet sitt. Vennligst prøv igjen med et annet kort.",
+            "currency_not_supported": "Kortet støtter ikke den angitte valutaen. Vennligst prøv igjen med et annet kort.",
+            "do_not_honor": "Kortet har blitt avvist av en ukjent grunn. Vennligst prøv igjen med et annet kort.",
+            "do_not_try_again": "Kortet har blitt avvist av en ukjent grunn. Vennligst prøv igjen med et annet kort.",
+            "duplicate_transaction": "En transaksjon med identisk beløp og kredittkortinformasjon ble sendt svært nylig.",
+            "expired_card": "Kortet er utløpt. Vennligst prøv igjen med et annet kort.",
+            "fraudulent": "Betalingen er avvist ettersom vår betalingsleverandør mistenker kortsvindel.",
+            "generic_decline": "Kortet har blitt avvist av en ukjent grunn. Vennligst prøv igjen med et annet kort.",
+            "incorrect_number": "Kortnummeret er feil.",
+            "incorrect_cvc": "CVC-nummeret er feil.",
+            "incorrect_pin": "PIN-koden som er oppgitt, er feil. Denne tilbakekodekoden gjelder bare for betalinger som er utført med kortleser.",
+            "incorrect_zip": "Postnummeret er feil.",
+            "insufficient_funds": "Kortet har ikke nok midler til å fullføre kjøpet. Vennligst prøv igjen med et annet kort.",
+            "invalid_account": "Kortet, eller kontoen kortet er koblet til, er ugyldig. Vennligst prøv igjen med et annet kort.",
+            "invalid_amount": "Betalingsbeløpet er ugyldig, eller overstiger beløpet som er tillatt.",
+            "invalid_cvc": "CVC-nummeret er feil.",
+            "invalid_expiry_year": "Utløpsåret er ugyldig.",
+            "invalid_number": "Kortnummeret er feil.",
+            "invalid_pin": "PIN-koden som er oppgitt, er feil. Denne tilbakekodekoden gjelder bare for betalinger som er utført med kortleser.",
+            "issuer_not_available": "Kortutstederen kunne ikke nås, slik at betalingen ikke kunne godkjennes.",
+            "lost_card": "Betalingen er avvist fordi kortet er rapportert tapt. Vennligst prøv igjen med et annet kort",
+            "merchant_blacklist": "Betalingen er avvist.",
+            "new_account_information_available": "Kortet, eller kontoen kortet er koblet til, er ugyldig. Vennligst prøv igjen med et annet kort",
+            "no_action_taken": "Kortet har blitt avvist av en ukjent grunn. Vennligst prøv igjen med et annet kort",
+            "not_permitted": "Betalingen er ikke tillatt.",
+            "pickup_card": "Kortet kan ikke brukes til å foreta denne betalingen. Vennligst prøv igjen med et annet kort",
+            "pin_try_exceeded": "Det tillatte antall PIN-forsøk er overskredet.",
+            "processing_error": "Det oppsto en feil under behandlingen av kortet. Vennligst prøv igjen med et annet kort",
+            "reenter_transaction": "Betalingen kunne ikke behandles av utstederen av en ukjent grunn.",
+            "restricted_card": "Kortet kan ikke brukes til å foreta denne betalingen. Vennligst prøv igjen med et annet kort",
+            "revocation_of_all_authorizations": "Kortet har blitt avvist av en ukjent grunn. Vennligst prøv igjen med et annet kort",
+            "revocation_of_authorization": "Kortet har blitt avvist av en ukjent grunn. Vennligst prøv igjen med et annet kort",
+            "security_violation": "Kortet har blitt avvist av en ukjent grunn. Vennligst prøv igjen med et annet kort",
+            "service_not_allowed": "Kortet har blitt avvist av en ukjent grunn. Vennligst prøv igjen med et annet kort",
+            "stolen_card": "Betalingen er avvist fordi kortet er rapportert stjålet. Vennligst prøv igjen med et annet kort",
+            "stop_payment_order": "Kortet har blitt avvist av en ukjent grunn. Vennligst prøv igjen med et annet kort",
+            "testmode_decline": "Et testkortnummer ble brukt.",
+            "live_mode_test_card": "Et testkortnummer ble brukt.",
+            "transaction_not_allowed": "Kortet har blitt avvist av en ukjent grunn. Vennligst prøv igjen med et annet kort",
+            "try_again_later": "Kortet har blitt avvist av en ukjent grunn. Vennligst prøv igjen med et annet kort",
+            "withdrawal_count_limit_exceeded": "Kortet har overskredet saldoen eller kredittgrensen som er tilgjengelig. Vennligst prøv igjen med et annet kort",
+            "unknown": "Transaksjonen ble ikke gjennomført. Vennligst prøv igjen."
+        }
+    },
+    "promocode": {
+        "main_text": "Har du rabattkode?",
+        "enter_code_text": "Din rabattkode",
+        "not_exists": "Ugyldig kampanjekode!",
+        "already_used": "Kampanjekode har allerede blitt brukt!",
+        "expired": "Kampanjekoden er utløpt!",
+        "applied": "Promo anvendt:",
+        "not_applicable": "Kampanjekode er ikke aktuelt!"
+    },
+    "header": {
+        "picture_consultation": "Bildekonsultasjon",
+        "back": "Tilbake",
+        "home": "Hjem"
+    }
+}
