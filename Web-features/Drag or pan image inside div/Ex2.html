@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.6.0/fabric.min.js"></script>
+  <style>
+    #canvas-container {
+      width: 500px;
+      height: 500px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div id="canvas-container"></div>
+
+  <script>
+    var canvas = new fabric.Canvas('canvas-container');
+
+    fabric.Image.fromURL('../../../Images/6a487e35-8206-45ff-907b-56be779661ba.png', function(img) {
+      img.set({
+        left: 0,
+        top: 0,
+        scaleX: 1,
+        scaleY: 1,
+        selectable: false
+      });
+      canvas.add(img);
+      canvas.setActiveObject(img);
+      canvas.renderAll();
+    });
+
+    canvas.on('mouse:down', function(options) {
+      if (options.target) {
+        options.target.set({
+          moving: true
+        });
+      }
+    });
+
+    canvas.on('mouse:up', function(options) {
+      if (options.target) {
+        options.target.set({
+          moving: false
+        });
+      }
+    });
+
+    canvas.on('mouse:move', function(options) {
+      if (options.target && options.target.moving) {
+        var delta = new fabric.Point(options.e.movementX, options.e.movementY);
+        options.target.top += delta.y;
+        options.target.left += delta.x;
+        options.target.setCoords();
+        canvas.renderAll();
+      }
+    });
+
+    canvas.on('mouse:wheel', function(options) {
+      var zoom = options.e.deltaY > 0 ? 0.1 : -0.1;
+      var zoomPoint = new fabric.Point(options.e.offsetX, options.e.offsetY);
+      var zoomPointInCanvas = fabric.util.transformPoint(zoomPoint, fabric.util.invertTransform(canvas.viewportTransform));
+      canvas.zoomToPoint(zoomPointInCanvas, canvas.getZoom() + zoom);
+      options.e.preventDefault();
+      options.e.stopPropagation();
+    });
+  </script>
+</body>
+</html>
