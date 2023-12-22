@@ -1,0 +1,1 @@
+exports.DISCOUNT_FREQUENCY = 5;
